@@ -1,0 +1,1295 @@
+{
+  "course": {
+    "id": "accounting-month-end-basics",
+    "title": "Accounting and Month-End Basics",
+    "subtitle": "A practical guide to accounting, finance operations and month end for non-accountants.",
+    "description": "This course helps teams understand the core accounting concepts behind month end, management reporting and finance operations, and shows how Mayday's products help finance teams automate and control recurring month-end workflows.",
+    "sections": [
+      {
+        "id": "accounting-basics",
+        "number": "1",
+        "title": "Accounting Basics",
+        "description": "The core concepts needed to understand accounting and finance conversations.",
+        "subsections": [
+          {
+            "id": "debits-credits-and-double-entry",
+            "number": "1.1",
+            "title": "Debits, Credits and Double-Entry",
+            "description": "The basic mechanics behind accounting entries.",
+            "lessons": [
+              {
+                "id": "debits-and-credits",
+                "title": "Debits and Credits",
+                "slug": "debits-and-credits",
+                "question": "When finance people talk about debits and credits, what are they talking about?",
+                "properExplanation": "Debits and credits are the two sides of every accounting entry. They are used to record how a transaction affects different accounts in the ledger. A debit does not always mean money in and a credit does not always mean money out. The meaning depends on the type of account being affected.",
+                "simpleExplanation": "Every transaction has two sides. Accounting uses debit for one side and credit for the other. The important thing is that the two sides must match.",
+                "example": {
+                  "title": "Software payment",
+                  "body": "A company pays £100 for software. The software expense is debited by £100 and the bank is credited by £100. The company has recorded the cost, and its bank balance has gone down."
+                },
+                "tags": ["accounting basics", "double-entry", "ledger"]
+              },
+              {
+                "id": "double-entry-bookkeeping",
+                "title": "Double-Entry Bookkeeping",
+                "slug": "double-entry-bookkeeping",
+                "question": "What is double-entry bookkeeping?",
+                "properExplanation": "Double-entry bookkeeping is the accounting system where every transaction is recorded in at least two accounts: one debit and one credit. The total debits must equal the total credits. This keeps the accounts balanced and creates a clear record of how each transaction affects the business.",
+                "simpleExplanation": "Every time something happens in the business, accounting records both sides of the story. If money leaves the bank, it usually went somewhere else: to an expense, an asset, a supplier, a loan, or something similar.",
+                "example": {
+                  "title": "Customer pays an invoice",
+                  "body": "A customer pays a £1,000 invoice. The bank is debited £1,000 and trade debtors are credited £1,000. The company has more cash, and the customer no longer owes that money."
+                },
+                "tags": ["accounting basics", "double-entry", "bookkeeping"]
+              }
+            ]
+          },
+          {
+            "id": "profit-and-the-pl",
+            "number": "1.2",
+            "title": "Profit and the P&L",
+            "description": "How businesses measure performance over a period.",
+            "lessons": [
+              {
+                "id": "profit-and-loss",
+                "title": "The P&L",
+                "slug": "profit-and-loss",
+                "question": "What is the P&L?",
+                "properExplanation": "The P&L, or Profit and Loss statement, shows a business's income, costs and profit over a period of time. It helps finance teams and business leaders understand whether the business made or lost money during a month, quarter or year.",
+                "simpleExplanation": "The P&L tells you how the business performed. It shows how much money came in, how much it cost to run the business, and what was left over.",
+                "example": {
+                  "title": "A profitable April",
+                  "body": "In April, a business makes £100,000 in sales and has £70,000 of costs. Revenue is £100,000 and costs are £70,000, so the P&L shows a £30,000 profit for April."
+                },
+                "tags": ["accounting basics", "p&l", "reporting"]
+              },
+              {
+                "id": "profit",
+                "title": "Profit",
+                "slug": "profit",
+                "question": "What is profit?",
+                "properExplanation": "Profit is the amount left after a business deducts its costs from its income. There are different types of profit, such as gross profit, operating profit and net profit, depending on which costs have been deducted.",
+                "simpleExplanation": "Profit is what the business keeps after paying the costs needed to make and run the business.",
+                "example": {
+                  "title": "Selling a product",
+                  "body": "A company sells a product for £100. It costs £40 to make and £30 in other business costs. Revenue is £100 and total costs are £70, so the company has made £30 profit."
+                },
+                "tags": ["accounting basics", "profit", "p&l"]
+              },
+              {
+                "id": "margins",
+                "title": "Margins",
+                "slug": "margins",
+                "question": "When people talk about margins, what are they talking about?",
+                "properExplanation": "A margin shows profit as a percentage of revenue. It helps people understand how much profit the business makes from each pound of sales. Different margins measure profit at different levels, such as gross margin, operating margin or net margin.",
+                "simpleExplanation": "Margin shows how much of each sale is left as profit. It is a percentage, so it makes businesses easier to compare.",
+                "example": {
+                  "title": "A 25% margin",
+                  "body": "A company makes £100,000 in revenue and £25,000 in profit. The profit margin is £25,000 / £100,000 = 25%. This means the business keeps 25p of profit from every £1 of sales."
+                },
+                "tags": ["accounting basics", "margin", "profit"]
+              }
+            ]
+          },
+          {
+            "id": "balance-sheet-basics",
+            "number": "1.3",
+            "title": "Balance Sheet Basics",
+            "description": "What a business owns, owes and what belongs to its owners.",
+            "lessons": [
+              {
+                "id": "balance-sheet",
+                "title": "The Balance Sheet",
+                "slug": "balance-sheet",
+                "question": "What is the balance sheet?",
+                "properExplanation": "The balance sheet shows what a company owns, what it owes, and what belongs to its owners at a specific point in time. It is built around the accounting equation: assets equal liabilities plus equity.",
+                "simpleExplanation": "The balance sheet is a snapshot of the business on one date. It shows what the business has, what it owes, and what is left for the owners.",
+                "example": {
+                  "title": "A simple snapshot",
+                  "body": "A company has £50,000 in cash and £20,000 of equipment, and owes suppliers £15,000. Assets are £70,000 and liabilities are £15,000, so equity is £55,000. The balance sheet shows £55,000 left after debts."
+                },
+                "tags": ["accounting basics", "balance sheet", "assets"]
+              },
+              {
+                "id": "equity",
+                "title": "Equity",
+                "slug": "equity",
+                "question": "What is equity in the context of a company's balance sheet?",
+                "properExplanation": "Equity represents the owners' interest in the company. It is the residual value after liabilities are deducted from assets. It can include share capital, retained earnings and current year profit or loss.",
+                "simpleExplanation": "Equity is the part of the company that belongs to the owners after the company has paid what it owes.",
+                "example": {
+                  "title": "Owners' interest",
+                  "body": "A company has £200,000 of assets and £80,000 of liabilities. Equity is £120,000, so the owners' accounting interest in the business is £120,000."
+                },
+                "tags": ["accounting basics", "equity", "balance sheet"]
+              },
+              {
+                "id": "net-assets-and-business-value",
+                "title": "Net Assets and Business Value",
+                "slug": "net-assets-and-business-value",
+                "question": "Does a business's net assets equal the worth of the business?",
+                "properExplanation": "Not usually. Net assets are the accounting difference between assets and liabilities. The market value of a business may be much higher or lower because it also depends on future profits, growth, customers, brand, intellectual property, risk and buyer demand.",
+                "simpleExplanation": "Net assets show what the accounts say is left after debts. But the value of a business is what someone would actually pay for it, which depends on much more than the balance sheet.",
+                "example": {
+                  "title": "Worth more than the accounts",
+                  "body": "A software company may have only £100,000 of net assets but be worth £5m because it has recurring revenue, strong growth and valuable customers."
+                },
+                "tags": ["accounting basics", "valuation", "balance sheet"]
+              },
+              {
+                "id": "negative-net-assets",
+                "title": "Negative Net Assets",
+                "slug": "negative-net-assets",
+                "question": "Does negative net assets mean a company is bust?",
+                "properExplanation": "Not necessarily. Negative net assets mean the company's liabilities are greater than its assets on the balance sheet. This can be a warning sign, but a company may still continue trading if it has enough cash, investor support, lender support or expected future profits.",
+                "simpleExplanation": "Negative net assets mean the company owes more than it owns on paper. That is not good, but it does not automatically mean the company has run out of money or must close.",
+                "example": {
+                  "title": "A funded startup",
+                  "body": "A startup may have negative net assets because it has spent more than it has earned so far. If investors keep funding it and it can pay its bills, it may still keep operating."
+                },
+                "tags": ["accounting basics", "solvency", "balance sheet"]
+              }
+            ]
+          },
+          {
+            "id": "cash-flow",
+            "number": "1.4",
+            "title": "Cash Flow",
+            "description": "Why profit and cash are not the same thing.",
+            "lessons": [
+              {
+                "id": "p-and-l-vs-cash-flow",
+                "title": "P&L vs Cash Flow",
+                "slug": "p-and-l-vs-cash-flow",
+                "question": "Is a cash flow statement the same as the P&L? If not, how are they different?",
+                "properExplanation": "No. The P&L shows income and costs based on accounting periods, while the cash flow statement shows actual cash moving in and out of the business. A company can show profit on the P&L but still have poor cash flow if customers have not paid, stock has been purchased, or debt repayments are due.",
+                "simpleExplanation": "The P&L shows whether the business made a profit. Cash flow shows whether there is actually money in the bank.",
+                "example": {
+                  "title": "Invoiced in June, paid in July",
+                  "body": "A company invoices a customer £10,000 in June but gets paid in July. In June, the P&L may show £10,000 of revenue, but the cash flow statement shows no cash received until July. That is why profit and cash are not the same thing."
+                },
+                "tags": ["accounting basics", "cash flow", "p&l"]
+              }
+            ]
+          },
+          {
+            "id": "solvency-liquidity-and-financial-health",
+            "number": "1.5",
+            "title": "Solvency, Liquidity and Financial Health",
+            "description": "Whether a business is healthy overall and able to pay its bills.",
+            "lessons": [
+              {
+                "id": "solvency-vs-liquidity",
+                "title": "Solvency vs Liquidity",
+                "slug": "solvency-vs-liquidity",
+                "question": "What is the difference between solvency and liquidity?",
+                "properExplanation": "Solvency is about whether a business can meet its long-term financial obligations. Liquidity is about whether it has enough cash or near-cash assets to meet short-term obligations. A business can be solvent in the long term but still have a short-term liquidity problem.",
+                "simpleExplanation": "Solvency is whether the business is financially healthy overall. Liquidity is whether it can pay its bills right now.",
+                "example": {
+                  "title": "Solvent but short on cash",
+                  "body": "A profitable company owns valuable property and has strong future earnings, so it may be solvent. But if it has very little cash in the bank and a supplier payment due tomorrow, it may have a liquidity problem."
+                },
+                "tags": ["accounting basics", "solvency", "liquidity"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "accounting-timing-concepts",
+        "number": "2",
+        "title": "Accounting Timing Concepts",
+        "description": "How accounting puts income and costs in the right period.",
+        "subsections": [
+          {
+            "id": "the-accruals-principle",
+            "number": "2.1",
+            "title": "The Accruals Principle",
+            "description": "Recognising income and costs in the period they relate to.",
+            "lessons": [
+              {
+                "id": "the-accruals-principle",
+                "title": "The Accruals Principle",
+                "slug": "the-accruals-principle",
+                "question": "What is the accruals principle?",
+                "properExplanation": "The accruals principle says that income and costs should be recognised in the period they relate to, not simply when cash is received or paid. This gives a more accurate view of performance because the P&L reflects what was earned and incurred during the period.",
+                "simpleExplanation": "Accounting tries to put income and costs in the right month. It does not just look at when money moved in or out of the bank.",
+                "example": {
+                  "title": "Legal services in March",
+                  "body": "A company uses legal services in March, but the invoice arrives in April. Under the accruals principle, the cost belongs in March because that is when the service was received."
+                },
+                "tags": ["timing", "accruals", "matching"]
+              }
+            ]
+          },
+          {
+            "id": "accruals-prepayments-and-revenue-timing",
+            "number": "2.2",
+            "title": "Accruals, Prepayments and Revenue Timing",
+            "description": "The four key adjustments that move income and costs into the right period.",
+            "lessons": [
+              {
+                "id": "accrual",
+                "title": "Accrual",
+                "slug": "accrual",
+                "question": "What is an accrual? Can you give an example?",
+                "properExplanation": "An accrual records a cost that has been incurred but has not yet been invoiced or paid. It allows the finance team to recognise the cost in the correct accounting period, even though the supplier invoice arrives later.",
+                "simpleExplanation": "An accrual is used when the business has had the cost, but the bill has not arrived yet.",
+                "example": {
+                  "title": "Consultancy in June",
+                  "body": "A company receives £5,000 of consultancy work in June, but the consultant sends the invoice in July. The finance team records a £5,000 accrual in June so June's P&L includes the cost."
+                },
+                "tags": ["timing", "accruals", "month end"]
+              },
+              {
+                "id": "prepayment",
+                "title": "Prepayment",
+                "slug": "prepayment",
+                "question": "What is a prepayment? Can you give an example?",
+                "properExplanation": "A prepayment records a cost that has been paid or invoiced before the business has fully received the benefit. The cost is initially held on the balance sheet as an asset, then released to the P&L over the period it relates to.",
+                "simpleExplanation": "A prepayment is used when the business pays for something now, but uses it over future months.",
+                "example": {
+                  "title": "Annual software subscription",
+                  "body": "A company pays £12,000 in January for a 12-month software subscription. Instead of recording the full £12,000 as a January cost, the finance team records £1,000 per month across the year."
+                },
+                "tags": ["timing", "prepayments", "month end"]
+              },
+              {
+                "id": "accrued-revenue",
+                "title": "Accrued Revenue",
+                "slug": "accrued-revenue",
+                "question": "What is accrued revenue? Can you give an example?",
+                "properExplanation": "Accrued revenue records income that has been earned but has not yet been invoiced or received. It allows the business to recognise revenue in the correct period, even if the invoice is raised later.",
+                "simpleExplanation": "Accrued revenue is used when the business has earned money, but has not billed the customer yet.",
+                "example": {
+                  "title": "Work done in September",
+                  "body": "A consultancy completes £8,000 of work in September but does not send the invoice until October. The finance team records £8,000 of accrued revenue in September so the income appears in the month the work was done."
+                },
+                "tags": ["timing", "revenue", "month end"]
+              },
+              {
+                "id": "deferred-revenue",
+                "title": "Deferred Revenue",
+                "slug": "deferred-revenue",
+                "question": "What is deferred revenue? Can you give an example?",
+                "properExplanation": "Deferred revenue records income that has been invoiced or paid before it has been earned. The amount is held on the balance sheet as a liability, then recognised as revenue over the period the product or service is delivered.",
+                "simpleExplanation": "Deferred revenue is used when the customer pays now, but the business still has to deliver the service later.",
+                "example": {
+                  "title": "Upfront annual payment",
+                  "body": "A customer pays £24,000 upfront for a 12-month subscription. The company does not recognise all £24,000 as revenue immediately. It recognises £2,000 per month as the service is delivered."
+                },
+                "tags": ["timing", "revenue", "deferred revenue"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "accounting-workflows-and-finance-operations",
+        "number": "3",
+        "title": "Accounting Workflows and Finance Operations",
+        "description": "The recurring processes that keep the accounts accurate.",
+        "subsections": [
+          {
+            "id": "bookkeeping-vs-accounting",
+            "number": "3.1",
+            "title": "Bookkeeping vs Accounting",
+            "description": "Recording transactions versus interpreting them.",
+            "lessons": [
+              {
+                "id": "bookkeeping-vs-accounting",
+                "title": "Bookkeeping vs Accounting",
+                "slug": "bookkeeping-vs-accounting",
+                "question": "What is the difference between bookkeeping and accounting?",
+                "properExplanation": "Bookkeeping is the process of recording financial transactions accurately and consistently. Accounting builds on bookkeeping by interpreting the numbers, applying accounting rules, making adjustments, preparing reports and helping the business understand financial performance.",
+                "simpleExplanation": "Bookkeeping records what happened. Accounting explains what it means.",
+                "example": {
+                  "title": "From record to insight",
+                  "body": "A bookkeeper records a supplier bill for £2,000 in Xero. An accountant checks whether that cost belongs in the current month, whether it should be accrued or prepaid, and how it affects the management accounts."
+                },
+                "tags": ["operations", "bookkeeping", "accounting"]
+              }
+            ]
+          },
+          {
+            "id": "month-end",
+            "number": "3.2",
+            "title": "Month End",
+            "description": "Finalising the accounts for a month.",
+            "lessons": [
+              {
+                "id": "month-end",
+                "title": "Month End",
+                "slug": "month-end",
+                "question": "When a finance team talks about month end, what are they talking about?",
+                "properExplanation": "Month end is the recurring process of finalising the accounts for a month. Finance teams review transactions, post adjustments, reconcile accounts, check balances, and prepare management accounts so the business has accurate financial information for that period.",
+                "simpleExplanation": "Month end is when the finance team tidies up the numbers for the month and checks they are right before reporting them.",
+                "example": {
+                  "title": "Closing April",
+                  "body": "At the end of April, a finance team reconciles the bank, posts accruals and prepayments, checks intercompany balances, reviews the P&L, and prepares management accounts for leadership."
+                },
+                "tags": ["operations", "month end", "close"]
+              }
+            ]
+          },
+          {
+            "id": "year-end",
+            "number": "3.3",
+            "title": "Year End",
+            "description": "Closing the accounts for the financial year.",
+            "lessons": [
+              {
+                "id": "year-end",
+                "title": "Year End",
+                "slug": "year-end",
+                "question": "When a finance team talks about year end, what are they talking about?",
+                "properExplanation": "Year end is the process of closing the accounts for the financial year. It involves completing final checks, reconciliations, adjustments and reporting so the business can prepare statutory accounts, tax filings and, where required, support an audit.",
+                "simpleExplanation": "Year end is like month end, but bigger and more formal because it closes the whole financial year.",
+                "example": {
+                  "title": "Closing the year",
+                  "body": "After the financial year ends, the finance team reviews all balances, posts final journals, confirms tax positions, prepares information for accountants or auditors, and supports the production of annual accounts."
+                },
+                "tags": ["operations", "year end", "close"]
+              }
+            ]
+          },
+          {
+            "id": "journals",
+            "number": "3.4",
+            "title": "Journals",
+            "description": "How finance teams post adjustments directly to the ledger.",
+            "lessons": [
+              {
+                "id": "journals",
+                "title": "Journals",
+                "slug": "journals",
+                "question": "What are journals?",
+                "properExplanation": "Journals are accounting entries posted directly into the ledger. They are used to record adjustments, corrections and accounting entries that do not come from standard workflows such as sales invoices, supplier bills or bank transactions.",
+                "simpleExplanation": "A journal is a way for finance teams to manually adjust the accounts when something needs to be corrected, moved or recognised properly.",
+                "example": {
+                  "title": "Monthly depreciation",
+                  "body": "A company needs to record £3,000 of depreciation for the month. It debits depreciation expense £3,000 and credits accumulated depreciation £3,000. This journal records the monthly depreciation cost."
+                },
+                "tags": ["operations", "journals", "ledger"]
+              },
+              {
+                "id": "general-journals",
+                "title": "General Journals",
+                "slug": "general-journals",
+                "question": "What are general journals?",
+                "properExplanation": "General journals are standard ledger entries used to record accounting adjustments across different accounts. They follow double-entry principles, meaning the total debits and credits must balance.",
+                "simpleExplanation": "A general journal is the normal format for entering an accounting adjustment into the system.",
+                "example": {
+                  "title": "Recoding a cost",
+                  "body": "A company needs to move £500 from General expenses to Software expenses because the cost was coded incorrectly. It debits Software expenses £500 and credits General expenses £500. The total cost has not changed, but it is now in the right account."
+                },
+                "tags": ["operations", "journals", "ledger"]
+              },
+              {
+                "id": "manual-journals",
+                "title": "Manual Journals",
+                "slug": "manual-journals",
+                "question": "What are manual journals?",
+                "properExplanation": "Manual journals are journals entered by a person rather than automatically created by a system, invoice, bill, bank feed or integration. They are common at month end but need good controls because they can directly change the accounts.",
+                "simpleExplanation": "A manual journal is an accounting adjustment someone types in themselves.",
+                "example": {
+                  "title": "Accruing legal fees",
+                  "body": "At month end, a finance manager manually posts a £10,000 accrual for legal fees because the work has been done but the supplier invoice has not arrived yet."
+                },
+                "tags": ["operations", "journals", "controls"]
+              }
+            ]
+          },
+          {
+            "id": "depreciation",
+            "number": "3.5",
+            "title": "Depreciation",
+            "description": "Spreading the cost of fixed assets over time.",
+            "lessons": [
+              {
+                "id": "depreciation",
+                "title": "Depreciation",
+                "slug": "depreciation",
+                "question": "What is depreciation?",
+                "properExplanation": "Depreciation spreads the cost of a fixed asset over the period the business expects to use it. Instead of recording the full cost immediately in the P&L, the cost is recognised gradually over the asset's useful life.",
+                "simpleExplanation": "Depreciation is how a business spreads the cost of something expensive, like equipment or a vehicle, over the years it is used.",
+                "example": {
+                  "title": "Buying a van",
+                  "body": "A company buys a van for £30,000 and expects to use it for five years. Instead of recording £30,000 as a cost in one month, it records £6,000 of depreciation each year."
+                },
+                "tags": ["operations", "depreciation", "fixed assets"]
+              }
+            ]
+          },
+          {
+            "id": "invoices",
+            "number": "3.6",
+            "title": "Invoices",
+            "description": "Requesting payment for goods or services.",
+            "lessons": [
+              {
+                "id": "invoices",
+                "title": "Invoices",
+                "slug": "invoices",
+                "question": "What is an invoice, and what would you expect to see on it?",
+                "properExplanation": "An invoice is a document requesting payment for goods or services. It records what was sold, who sold it, who bought it, the amount due, payment terms, tax details and other information needed for accounting and payment processing.",
+                "simpleExplanation": "An invoice is a formal bill. It tells the customer what they bought, how much they owe, and when they need to pay.",
+                "example": {
+                  "title": "A subscription invoice",
+                  "body": "A software supplier sends an invoice for an annual subscription. You would expect to see the supplier name, customer name, invoice number, invoice date, due date, description, amount, VAT or tax, total due and payment details."
+                },
+                "tags": ["operations", "invoices", "ar"]
+              }
+            ]
+          },
+          {
+            "id": "audit",
+            "number": "3.7",
+            "title": "Audit",
+            "description": "An independent review of the accounts.",
+            "lessons": [
+              {
+                "id": "audit",
+                "title": "Audit",
+                "slug": "audit",
+                "question": "What is an audit?",
+                "properExplanation": "An audit is an independent review of a company's financial statements and supporting records. The auditor checks whether the accounts give a reliable view of the business and whether the numbers are supported by appropriate evidence.",
+                "simpleExplanation": "An audit is when an independent person checks the company's accounts to see whether they can be trusted.",
+                "example": {
+                  "title": "Checking the evidence",
+                  "body": "An auditor may check bank statements, invoices, supplier bills, payroll records, journals and reconciliations to confirm that the figures in the annual accounts are accurate and properly supported."
+                },
+                "tags": ["operations", "audit", "controls"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "management-reporting",
+        "number": "4",
+        "title": "Management Reporting",
+        "description": "The reports leaders use to understand performance and make decisions.",
+        "subsections": [
+          {
+            "id": "management-accounts",
+            "number": "4.1",
+            "title": "Management Accounts",
+            "description": "Internal reports for running the business.",
+            "lessons": [
+              {
+                "id": "management-accounts",
+                "title": "Management Accounts",
+                "slug": "management-accounts",
+                "question": "What are management accounts?",
+                "properExplanation": "Management accounts are internal financial reports prepared to help a business understand performance and make decisions. They are usually produced monthly and often include a P&L, balance sheet, cash flow view, budget comparisons, variance commentary and key metrics.",
+                "simpleExplanation": "Management accounts are the finance reports leaders use to see how the business is doing and what needs attention.",
+                "example": {
+                  "title": "A monthly pack",
+                  "body": "At the end of May, the finance team sends leadership a pack showing revenue, costs, profit, cash, budget vs actuals, and commentary on why marketing spend was higher than expected."
+                },
+                "tags": ["reporting", "management accounts", "month end"]
+              }
+            ]
+          },
+          {
+            "id": "statutory-accounts",
+            "number": "4.2",
+            "title": "Statutory Accounts",
+            "description": "Official annual accounts required by law.",
+            "lessons": [
+              {
+                "id": "statutory-accounts",
+                "title": "Statutory Accounts",
+                "slug": "statutory-accounts",
+                "question": "What are statutory accounts?",
+                "properExplanation": "Statutory accounts are formal financial statements prepared to meet legal and regulatory requirements. They are usually produced annually and may be filed with official bodies, shared with shareholders, used for tax purposes, or reviewed by auditors.",
+                "simpleExplanation": "Statutory accounts are the official annual accounts a company has to prepare because the law requires it.",
+                "example": {
+                  "title": "Filing with Companies House",
+                  "body": "A UK limited company prepares annual statutory accounts showing its financial performance and position for the year, then files them with Companies House."
+                },
+                "tags": ["reporting", "statutory accounts", "compliance"]
+              }
+            ]
+          },
+          {
+            "id": "management-accounts-vs-statutory-accounts",
+            "number": "4.3",
+            "title": "Management Accounts vs Statutory Accounts",
+            "description": "Internal decision-making versus external compliance.",
+            "lessons": [
+              {
+                "id": "management-accounts-vs-statutory-accounts",
+                "title": "Management Accounts vs Statutory Accounts",
+                "slug": "management-accounts-vs-statutory-accounts",
+                "question": "What is the difference between management accounts and statutory accounts?",
+                "properExplanation": "Management accounts are internal, flexible and decision-focused. Statutory accounts are external, formal and compliance-focused. Management accounts help the business run itself during the year, while statutory accounts provide an official annual record for legal, tax and reporting purposes.",
+                "simpleExplanation": "Management accounts help people run the business. Statutory accounts help the business meet its legal reporting duties.",
+                "example": {
+                  "title": "Two different purposes",
+                  "body": "A CFO might use monthly management accounts to decide whether to hire more staff. The company's statutory accounts are prepared at year end and filed officially."
+                },
+                "tags": ["reporting", "management accounts", "statutory accounts"]
+              }
+            ]
+          },
+          {
+            "id": "profit-measures",
+            "number": "4.4",
+            "title": "Profit Measures",
+            "description": "The different levels of profit and EBITDA.",
+            "lessons": [
+              {
+                "id": "types-of-profit",
+                "title": "Types of Profit",
+                "slug": "types-of-profit",
+                "question": "What are the different types of profit?",
+                "properExplanation": "Different profit measures show performance after deducting different types of costs. Gross profit looks at revenue after direct costs. Operating profit deducts normal running costs. Profit before tax deducts finance costs and other items before tax. Net profit is the final profit after all costs and tax.",
+                "simpleExplanation": "There are different levels of profit. Each one takes away more costs, giving a different view of how the business is performing.",
+                "example": {
+                  "title": "Profit at each level",
+                  "body": "A business has £100,000 revenue, £40,000 cost of sales, £30,000 operating costs, £5,000 finance costs and £5,000 tax. Gross profit is £60,000, operating profit is £30,000, profit before tax is £25,000 and net profit is £20,000."
+                },
+                "tags": ["reporting", "profit", "p&l"]
+              },
+              {
+                "id": "ebitda",
+                "title": "EBITDA",
+                "slug": "ebitda",
+                "question": "What is EBITDA?",
+                "properExplanation": "EBITDA stands for Earnings Before Interest, Tax, Depreciation and Amortisation. It is a profit measure used to show operating performance before the effects of financing, tax and certain non-cash accounting charges.",
+                "simpleExplanation": "EBITDA is a way of looking at business performance before some extra accounting and financing costs are taken off.",
+                "example": {
+                  "title": "Adding back non-cash costs",
+                  "body": "A company has operating profit of £200,000, depreciation of £30,000 and amortisation of £20,000. EBITDA is £250,000. This shows profit before depreciation and amortisation are deducted."
+                },
+                "tags": ["reporting", "ebitda", "profit"]
+              }
+            ]
+          },
+          {
+            "id": "cost-categories",
+            "number": "4.5",
+            "title": "Cost Categories",
+            "description": "How businesses group their costs.",
+            "lessons": [
+              {
+                "id": "fixed-costs-overheads-and-opex",
+                "title": "Fixed Costs, Overheads and Opex",
+                "slug": "fixed-costs-overheads-and-opex",
+                "question": "What are fixed costs, overheads and opex?",
+                "properExplanation": "Fixed costs are costs that do not directly change with each additional sale. Overheads are general running costs of the business. Opex, or operating expenditure, is the cost of running the business day to day. These terms often overlap in practice.",
+                "simpleExplanation": "These are the regular costs of running the business, even if sales go up or down.",
+                "example": {
+                  "title": "Regular running costs",
+                  "body": "Office rent, salaries, insurance, accounting fees and software subscriptions are usually treated as overheads or operating costs."
+                },
+                "tags": ["reporting", "costs", "opex"]
+              },
+              {
+                "id": "marginal-costs-cost-of-sales-and-variable-costs",
+                "title": "Marginal Costs, Cost of Sales and Variable Costs",
+                "slug": "marginal-costs-cost-of-sales-and-variable-costs",
+                "question": "What are marginal costs, cost of sales and variable costs?",
+                "properExplanation": "Variable costs are costs that change as sales or activity levels change. Cost of sales refers to the direct costs of producing or delivering what the business sells. Marginal cost is the extra cost of producing or selling one additional unit.",
+                "simpleExplanation": "These are costs that usually increase when the business sells more.",
+                "example": {
+                  "title": "Cost of each sale",
+                  "body": "An ecommerce company sells a product for £50. The product costs £20 to buy, package and ship. That £20 is part of cost of sales and changes as more products are sold."
+                },
+                "tags": ["reporting", "costs", "cost of sales"]
+              },
+              {
+                "id": "finance-costs",
+                "title": "Finance Costs",
+                "slug": "finance-costs",
+                "question": "What are finance costs?",
+                "properExplanation": "Finance costs are the costs a business incurs from borrowing money or using financing arrangements. They commonly include loan interest, bank facility fees, lease interest and other debt-related charges.",
+                "simpleExplanation": "Finance costs are the price the business pays for borrowing money.",
+                "example": {
+                  "title": "Loan interest",
+                  "body": "A company has a bank loan and pays £2,000 of interest in the month. That interest is a finance cost."
+                },
+                "tags": ["reporting", "costs", "finance costs"]
+              }
+            ]
+          },
+          {
+            "id": "fpa",
+            "number": "4.6",
+            "title": "FP&A",
+            "description": "The part of finance that looks ahead.",
+            "lessons": [
+              {
+                "id": "fpa",
+                "title": "FP&A",
+                "slug": "fpa",
+                "question": "What is FP&A?",
+                "properExplanation": "FP&A stands for Financial Planning and Analysis. It is the finance function focused on budgeting, forecasting, performance analysis, scenario planning and helping leadership make better commercial decisions.",
+                "simpleExplanation": "FP&A is the part of finance that looks ahead. It helps the business plan, forecast and understand what the numbers mean.",
+                "example": {
+                  "title": "Modelling a scenario",
+                  "body": "An FP&A analyst builds a forecast showing what happens to cash, revenue and hiring plans if sales grow 10% slower than expected."
+                },
+                "tags": ["reporting", "fp&a", "forecasting"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "business-structures-and-finance-teams",
+        "number": "5",
+        "title": "Business Structures and Finance Teams",
+        "description": "How businesses are structured and how finance teams are organised.",
+        "subsections": [
+          {
+            "id": "company-structures",
+            "number": "5.1",
+            "title": "Company Structures",
+            "description": "Different ways businesses are legally organised.",
+            "lessons": [
+              {
+                "id": "company-vs-partnership",
+                "title": "Company vs Partnership",
+                "slug": "company-vs-partnership",
+                "question": "What is the difference between a company and a partnership?",
+                "properExplanation": "A company is a separate legal entity owned by shareholders. It can own assets, owe money, enter contracts and pay tax in its own name. A partnership is a business structure where two or more people or entities run a business together and share profits, responsibilities and, depending on the structure, liabilities.",
+                "simpleExplanation": "A company is treated like its own legal person. A partnership is people or organisations working together in business.",
+                "example": {
+                  "title": "Two structures",
+                  "body": "A software business set up as a limited company is owned by shareholders and files company accounts. A small law firm may operate as a partnership where the partners share profits and responsibilities."
+                },
+                "tags": ["structures", "company", "partnership"]
+              },
+              {
+                "id": "branch-vs-subsidiary",
+                "title": "Branch vs Subsidiary",
+                "slug": "branch-vs-subsidiary",
+                "question": "What is the difference between a branch and a subsidiary?",
+                "properExplanation": "A branch is an extension of the same legal entity operating in another location or market. A subsidiary is a separate legal entity owned or controlled by another company. Subsidiaries usually have their own accounts, tax obligations and legal responsibilities.",
+                "simpleExplanation": "A branch is another arm of the same company. A subsidiary is a separate company owned by the parent company.",
+                "example": {
+                  "title": "Expanding to New York",
+                  "body": "A UK company opening a New York office as part of the same legal company is using a branch. If it creates a separate US company owned by the UK parent, that US company is a subsidiary."
+                },
+                "tags": ["structures", "branch", "subsidiary"]
+              }
+            ]
+          },
+          {
+            "id": "roles-and-organisational-model",
+            "number": "5.2",
+            "title": "Roles and Organisational Model",
+            "description": "Who does what in a finance team.",
+            "lessons": [
+              {
+                "id": "finance-roles",
+                "title": "Finance Roles",
+                "slug": "finance-roles",
+                "question": "What are the common roles in a finance team?",
+                "properExplanation": "Finance teams usually include a mix of operational, reporting and strategic roles. Bookkeepers and accounts assistants record transactions. Finance managers and controllers manage month end, reporting and controls. CFOs and finance directors lead financial strategy, planning, risk and commercial decision-making.",
+                "simpleExplanation": "Different finance roles look after different parts of the money process: recording transactions, checking the numbers, reporting performance, planning ahead and advising the business.",
+                "example": {
+                  "title": "From clerk to CFO",
+                  "body": "An accounts payable clerk processes supplier bills. A financial controller makes sure month end is accurate. A CFO uses the numbers to help the business make bigger decisions."
+                },
+                "tags": ["structures", "finance team", "roles"]
+              },
+              {
+                "id": "finance-organisational-model",
+                "title": "Finance Organisational Model",
+                "slug": "finance-organisational-model",
+                "question": "How is a finance team usually organised?",
+                "properExplanation": "A finance function usually develops as the business grows. Early on, finance may be handled by a founder, bookkeeper or external accountant. As complexity increases, businesses often add in-house finance managers, controllers, management accountants, FP&A roles, payroll, accounts payable, accounts receivable and eventually a CFO.",
+                "simpleExplanation": "Small businesses may only need one person or an external accountant. Bigger businesses need a team with different people responsible for payments, reporting, planning and controls.",
+                "example": {
+                  "title": "Growing the team",
+                  "body": "A growing business might start with an external bookkeeper. Later it hires a finance manager, then a financial controller, then adds AP, AR and FP&A roles as transaction volume and reporting needs increase."
+                },
+                "tags": ["structures", "finance team", "organisation"]
+              }
+            ]
+          },
+          {
+            "id": "accounting-qualifications",
+            "number": "5.3",
+            "title": "Accounting Qualifications",
+            "description": "The professional credentials used in finance.",
+            "lessons": [
+              {
+                "id": "accounting-qualifications",
+                "title": "Accounting Qualifications",
+                "slug": "accounting-qualifications",
+                "question": "What is an accounting qualification?",
+                "properExplanation": "An accounting qualification is a formal professional credential showing that someone has studied and passed exams in accounting, finance, tax, audit, business or management accounting. Many finance roles require or prefer qualified accountants, especially for senior reporting, control or advisory positions.",
+                "simpleExplanation": "An accounting qualification proves someone has been trained and tested in accounting.",
+                "example": {
+                  "title": "Qualified accountants",
+                  "body": "A financial controller might be ACA, ACCA, CIMA, CA or CPA qualified, depending on their country, career route and area of focus."
+                },
+                "tags": ["structures", "qualifications", "careers"]
+              },
+              {
+                "id": "types-of-accounting-qualifications",
+                "title": "Types of Accounting Qualifications",
+                "slug": "types-of-accounting-qualifications",
+                "question": "What are the different accounting qualifications?",
+                "properExplanation": "Common accounting qualifications include ACA, ACCA, CIMA, AAT, CA and CPA. ACA, ACCA, CA and CPA are generally professional accountancy qualifications. CIMA is more focused on management accounting and commercial finance. AAT is often used for bookkeeping, accounting support and early-career finance roles.",
+                "simpleExplanation": "There are different accounting qualifications depending on the country and the type of finance work someone wants to do.",
+                "example": {
+                  "title": "Choosing a route",
+                  "body": "In the UK, someone working in audit may train as ACA. Someone working in management accounting may choose CIMA. Someone starting in bookkeeping or finance operations may begin with AAT."
+                },
+                "tags": ["structures", "qualifications", "careers"]
+              },
+              {
+                "id": "differences-between-accounting-qualifications",
+                "title": "Differences Between Accounting Qualifications",
+                "slug": "differences-between-accounting-qualifications",
+                "question": "What are the differences between accounting qualifications?",
+                "properExplanation": "The main differences are focus, career route and geography. ACA is often associated with audit and practice training. ACCA is broad and globally recognised. CIMA focuses more on management accounting, business performance and commercial finance. CPA and CA are common professional designations in markets such as the US, Australia, New Zealand, Canada and other regions. AAT is more practical and technician-level.",
+                "simpleExplanation": "Some qualifications are more focused on audit and formal accounts. Some are more focused on business performance and management reporting. Some are more common in certain countries.",
+                "example": {
+                  "title": "Different paths to CFO",
+                  "body": "A CFO could come from an ACA background after training in audit, or from a CIMA background after working in management accounting and commercial finance. Both can lead to senior finance roles, but the training routes are different."
+                },
+                "tags": ["structures", "qualifications", "careers"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tax-basics",
+        "number": "6",
+        "title": "Tax Basics",
+        "description": "The main taxes a business deals with and how they work.",
+        "subsections": [
+          {
+            "id": "general-tax-concepts",
+            "number": "6.1",
+            "title": "General Tax Concepts",
+            "description": "What tax is and the main types businesses face.",
+            "lessons": [
+              {
+                "id": "tax",
+                "title": "Tax",
+                "slug": "tax",
+                "question": "What is tax?",
+                "properExplanation": "Tax is money that individuals and businesses are legally required to pay to government. Taxes fund public services and are charged in different ways, such as on profits, sales, employment, property, imports or personal income.",
+                "simpleExplanation": "Tax is money paid to the government because the law says it must be paid.",
+                "example": {
+                  "title": "Different ways to be taxed",
+                  "body": "If a company makes a profit, it may pay corporation tax. If it sells goods or services, it may need to collect VAT, GST or sales tax from customers."
+                },
+                "tags": ["tax", "basics", "compliance"]
+              },
+              {
+                "id": "business-taxes",
+                "title": "Business Taxes",
+                "slug": "business-taxes",
+                "question": "What are the different business taxes, and how do they work?",
+                "properExplanation": "Businesses may deal with several types of tax depending on where they operate and what they do. Common business taxes include corporation tax on profits, VAT/GST/sales tax on sales, employment taxes on payroll, property-related taxes, import duties, withholding taxes and taxes on dividends or capital gains.",
+                "simpleExplanation": "Businesses do not usually pay just one tax. They may pay tax on profits, collect tax on sales, deduct tax from employees' wages, and deal with other taxes depending on the country and activity.",
+                "example": {
+                  "title": "A UK company's taxes",
+                  "body": "A UK company might pay corporation tax on profits, charge VAT on taxable sales, deduct PAYE and National Insurance from employee wages, and pay employer National Insurance on payroll."
+                },
+                "tags": ["tax", "business taxes", "compliance"]
+              }
+            ]
+          },
+          {
+            "id": "vat-gst-and-sales-tax",
+            "number": "6.2",
+            "title": "VAT, GST and Sales Tax",
+            "description": "Taxes charged on the sale of goods and services.",
+            "lessons": [
+              {
+                "id": "vat-gst-and-sales-tax",
+                "title": "VAT, GST and Sales Tax",
+                "slug": "vat-gst-and-sales-tax",
+                "question": "What is VAT, GST or sales tax?",
+                "properExplanation": "VAT, GST and sales tax are taxes charged on the sale of goods or services. The business usually collects the tax from the customer and pays it to the relevant tax authority. The exact rules vary by country, including when a business must register, what rate applies and whether input tax can be reclaimed.",
+                "simpleExplanation": "VAT, GST and sales tax are added to sales. The customer pays the tax to the business, and the business passes it on to the government.",
+                "example": {
+                  "title": "Adding 20% VAT",
+                  "body": "A company sells software for £100 plus 20% VAT. The sale value is £100, VAT is £20, and the customer pays £120. The £100 is the company's income and the £20 VAT is collected on behalf of the tax authority."
+                },
+                "tags": ["tax", "vat", "sales tax"]
+              }
+            ]
+          },
+          {
+            "id": "employment-taxes",
+            "number": "6.3",
+            "title": "Employment Taxes",
+            "description": "How tax is collected through payroll.",
+            "lessons": [
+              {
+                "id": "paye-and-payg",
+                "title": "PAYE and PAYG",
+                "slug": "paye-and-payg",
+                "question": "What is PAYE or PAYG for employment tax purposes?",
+                "properExplanation": "PAYE and PAYG are systems for collecting employment taxes through payroll. The employer deducts income tax and sometimes other employee contributions from wages before paying employees, then sends those amounts to the tax authority. The employer may also have its own payroll-related tax or contribution obligations.",
+                "simpleExplanation": "PAYE or PAYG means employees pay tax through their wages. The employer takes the tax out before paying the employee and sends it to the government.",
+                "example": {
+                  "title": "Deducting tax from wages",
+                  "body": "An employee earns £3,000 gross pay for the month. The employer deducts income tax and employee contributions through payroll, pays the employee the net amount, and pays the deducted tax to the tax authority."
+                },
+                "tags": ["tax", "payroll", "paye"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "funding-ownership-and-capital-structure",
+        "number": "7",
+        "title": "Funding, Ownership and Capital Structure",
+        "description": "How businesses are funded and owned.",
+        "subsections": [
+          {
+            "id": "debt-and-gearing",
+            "number": "7.1",
+            "title": "Debt and Gearing",
+            "description": "Borrowing money and how much a business relies on it.",
+            "lessons": [
+              {
+                "id": "debt",
+                "title": "Debt",
+                "slug": "debt",
+                "question": "What is debt?",
+                "properExplanation": "Debt is money a business has borrowed and must repay. It usually comes with agreed terms, such as repayment dates, interest charges and conditions set by the lender. Debt can help a business fund growth, but it also creates obligations that must be managed.",
+                "simpleExplanation": "Debt is borrowed money. The business gets money now, but has to pay it back later, usually with interest.",
+                "example": {
+                  "title": "A bank loan",
+                  "body": "A company borrows £500,000 from a bank to open a new office. It repays the loan over five years and pays interest each month."
+                },
+                "tags": ["funding", "debt", "capital"]
+              },
+              {
+                "id": "gearing",
+                "title": "Gearing",
+                "slug": "gearing",
+                "question": "What is gearing?",
+                "properExplanation": "Gearing measures how much a business is funded by debt compared with equity. A highly geared business relies more heavily on borrowing, which can increase returns when things go well but also increases financial risk because repayments and interest still need to be paid.",
+                "simpleExplanation": "Gearing shows how much the business depends on borrowed money.",
+                "example": {
+                  "title": "Comparing two companies",
+                  "body": "Company A is mostly funded by shareholder money and has very little debt. Company B has large bank loans. Company B is more highly geared because more of its funding comes from borrowing."
+                },
+                "tags": ["funding", "gearing", "capital"]
+              }
+            ]
+          },
+          {
+            "id": "shares-and-ownership",
+            "number": "7.2",
+            "title": "Shares and Ownership",
+            "description": "Different classes of shares in a company.",
+            "lessons": [
+              {
+                "id": "ordinary-shares-and-preference-shares",
+                "title": "Ordinary Shares and Preference Shares",
+                "slug": "ordinary-shares-and-preference-shares",
+                "question": "What are ordinary shares and preference shares?",
+                "properExplanation": "Ordinary shares are the standard ownership shares in a company. They usually give shareholders voting rights and a claim on future profits through dividends. Preference shares are a different class of shares that usually give holders certain preferential rights, such as priority over ordinary shareholders for dividends or repayment of capital.",
+                "simpleExplanation": "Ordinary shares are normal ownership shares. Preference shares are special shares that may get paid before ordinary shares in certain situations.",
+                "example": {
+                  "title": "Who gets paid first",
+                  "body": "A company pays a dividend. Preference shareholders may be entitled to receive their agreed dividend first. Ordinary shareholders receive dividends after that, if the company decides to pay them."
+                },
+                "tags": ["funding", "shares", "ownership"]
+              }
+            ]
+          },
+          {
+            "id": "dividends",
+            "number": "7.3",
+            "title": "Dividends",
+            "description": "Returning profits to owners.",
+            "lessons": [
+              {
+                "id": "dividends",
+                "title": "Dividends",
+                "slug": "dividends",
+                "question": "What is a dividend?",
+                "properExplanation": "A dividend is a payment made by a company to its shareholders, usually from profits. Dividends are a way for owners to receive a return on their investment, but they can normally only be paid when the company has enough distributable profits and cash.",
+                "simpleExplanation": "A dividend is money paid from a company to its owners.",
+                "example": {
+                  "title": "Sharing the profit",
+                  "body": "A company makes a profit and decides to pay £50,000 to its shareholders. If one shareholder owns 40% of the shares, they receive £20,000 of the dividend."
+                },
+                "tags": ["funding", "dividends", "ownership"]
+              }
+            ]
+          },
+          {
+            "id": "ipos",
+            "number": "7.4",
+            "title": "IPOs",
+            "description": "Listing a company on a public stock exchange.",
+            "lessons": [
+              {
+                "id": "ipo",
+                "title": "IPO",
+                "slug": "ipo",
+                "question": "What is an IPO?",
+                "properExplanation": "An IPO, or Initial Public Offering, is when a private company lists its shares on a public stock exchange for the first time. This allows public investors to buy shares in the company and can help the business raise capital, give early investors an exit, and increase its public profile.",
+                "simpleExplanation": "An IPO is when a company starts selling its shares on the stock market.",
+                "example": {
+                  "title": "Going public",
+                  "body": "A fast-growing technology company decides to list on the London Stock Exchange. After the IPO, investors can buy and sell its shares publicly."
+                },
+                "tags": ["funding", "ipo", "capital"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "financial-controls-and-data-structure",
+        "number": "8",
+        "title": "Financial Controls and Data Structure",
+        "description": "How businesses protect accuracy and organise their financial data.",
+        "subsections": [
+          {
+            "id": "financial-controls",
+            "number": "8.1",
+            "title": "Financial Controls",
+            "description": "Checks that protect the accuracy of the accounts.",
+            "lessons": [
+              {
+                "id": "financial-controls",
+                "title": "Financial Controls",
+                "slug": "financial-controls",
+                "question": "What are financial controls?",
+                "properExplanation": "Financial controls are the processes, checks and rules a business uses to protect the accuracy of its financial information. They help prevent errors, fraud, missed tasks and unsupported adjustments. Good controls make sure the numbers are reviewed, approved, traceable and reliable.",
+                "simpleExplanation": "Financial controls are safety checks for the company's money and accounts. They help make sure the numbers are correct and that people cannot easily make mistakes or change things without anyone noticing.",
+                "example": {
+                  "title": "Approving large journals",
+                  "body": "A finance team may require all manual journals over £10,000 to be reviewed by a financial controller before they are posted. That control reduces the risk of a large error going into the accounts."
+                },
+                "tags": ["controls", "governance", "month end"]
+              }
+            ]
+          },
+          {
+            "id": "chart-of-accounts",
+            "number": "8.2",
+            "title": "Chart of Accounts",
+            "description": "The filing system for a company's finances.",
+            "lessons": [
+              {
+                "id": "chart-of-accounts",
+                "title": "Chart of Accounts",
+                "slug": "chart-of-accounts",
+                "question": "What is the Chart of Accounts?",
+                "properExplanation": "The Chart of Accounts is the structured list of accounts a business uses to categorise financial transactions in its accounting system. It usually includes revenue, cost, asset, liability and equity accounts. The Chart of Accounts determines how transactions are recorded and how financial reports are built.",
+                "simpleExplanation": "The Chart of Accounts is like the filing system for the company's finances. Every transaction gets put into a category, such as sales, rent, software, wages, bank, debtors or creditors.",
+                "example": {
+                  "title": "Coding a cost",
+                  "body": "A company pays £500 for Google Ads. In the accounting system, the transaction might be coded to a Marketing or Advertising account in the Chart of Accounts. This means it appears in the right place in the P&L."
+                },
+                "tags": ["controls", "chart of accounts", "data structure"]
+              }
+            ]
+          },
+          {
+            "id": "reporting-dimensions",
+            "number": "8.3",
+            "title": "Reporting Dimensions",
+            "description": "Labels that let finance teams slice the numbers.",
+            "lessons": [
+              {
+                "id": "reporting-dimensions",
+                "title": "Reporting Dimensions",
+                "slug": "reporting-dimensions",
+                "question": "What are reporting dimensions, and how do they relate to Xero tracking categories?",
+                "properExplanation": "Reporting dimensions are labels added to transactions so finance teams can analyse performance beyond the main account code. They allow businesses to report by department, location, project, region, fund, product line or other useful categories. In Xero, these are commonly managed through tracking categories.",
+                "simpleExplanation": "Reporting dimensions let finance teams slice the numbers in different ways. The account code tells you what the transaction was. The reporting dimension tells you where, who or what it related to.",
+                "example": {
+                  "title": "Tracking by team",
+                  "body": "A £1,000 software cost might be recorded with the account Software, the tracking category Marketing and the entity UK Ltd. This means the finance team can report not only on total software costs, but also on software costs for the Marketing team."
+                },
+                "tags": ["controls", "reporting dimensions", "xero"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "multi-entity-intercompany-and-consolidation",
+        "number": "9",
+        "title": "Multi-Entity, Intercompany and Consolidation",
+        "description": "Reporting across groups of companies.",
+        "subsections": [
+          {
+            "id": "consolidated-reporting",
+            "number": "9.1",
+            "title": "Consolidated Reporting",
+            "description": "Combining multiple entities into one group view.",
+            "lessons": [
+              {
+                "id": "consolidated-reporting",
+                "title": "Consolidated Reporting",
+                "slug": "consolidated-reporting",
+                "question": "What is consolidated reporting?",
+                "properExplanation": "Consolidated reporting combines the financial results of multiple entities into one group-level view. It allows a parent company or group to report as if all the entities were one business, while still accounting for each entity separately underneath.",
+                "simpleExplanation": "Consolidated reporting is when a group adds together the accounts from all its companies to show one overall picture.",
+                "example": {
+                  "title": "One group picture",
+                  "body": "A group has three companies: UK Ltd, US Inc and Australia Pty Ltd. Each company has its own P&L and balance sheet. Consolidated reporting combines them into one group P&L and one group balance sheet so leadership can see how the whole group is performing."
+                },
+                "tags": ["multi-entity", "consolidation", "group reporting"]
+              }
+            ]
+          },
+          {
+            "id": "eliminations",
+            "number": "9.2",
+            "title": "Eliminations",
+            "description": "Removing internal group transactions.",
+            "lessons": [
+              {
+                "id": "eliminations",
+                "title": "Eliminations",
+                "slug": "eliminations",
+                "question": "What are eliminations?",
+                "properExplanation": "Eliminations are accounting adjustments made during consolidation to remove transactions and balances between entities in the same group. They prevent internal group activity from being counted as external revenue, cost, asset or liability.",
+                "simpleExplanation": "Eliminations remove the activity where group companies have traded with each other, because the group has not really made money from itself.",
+                "example": {
+                  "title": "Internal recharge removed",
+                  "body": "Company A charges Company B £10,000 for internal management services. Company A records £10,000 of revenue and Company B records £10,000 of cost. In the group accounts, that revenue and cost are eliminated because the transaction happened inside the group, not with an outside customer."
+                },
+                "tags": ["multi-entity", "consolidation", "eliminations"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "mayday-products",
+        "number": "10",
+        "title": "Mayday Products & Why They Help Teams",
+        "description": "How Mayday helps finance teams automate and control month-end workflows.",
+        "subsections": [
+          {
+            "id": "mayday-month-end-automation",
+            "number": "10.1",
+            "title": "Mayday: Month-End Automation",
+            "description": "An overview of what Mayday does for finance teams.",
+            "lessons": [
+              {
+                "id": "mayday-overall",
+                "title": "Mayday Overall",
+                "slug": "mayday-overall",
+                "question": "What jobs does Mayday help finance teams do, why do they matter, how were they handled before Mayday, and what changes when Mayday is used?",
+                "properExplanation": "Mayday helps finance teams automate and control the recurring workflows that make month end slow, manual or difficult to manage. These include revenue recognition, prepayments, accruals, variance commentary, close management, intercompany recharges, intercompany reconciliation, cross-entity bank reconciliation and group-wide accounting structures. These jobs matter because accurate month-end accounts support better management reporting, stronger controls and more reliable decision-making.",
+                "simpleExplanation": "Mayday helps finance teams do the fiddly month-end jobs that usually take a lot of spreadsheet work, checking and manual posting.",
+                "example": {
+                  "title": "Before and after Mayday",
+                  "body": "Before Mayday, a finance team might manage prepayments in one spreadsheet, deferred revenue in another, intercompany balances in exported reports, and close tasks in a checklist. With Mayday, those workflows become more structured, reviewable and connected to Xero, QuickBooks Online or Intuit Enterprise Suite."
+                },
+                "tags": ["mayday", "month end", "automation"]
+              }
+            ]
+          },
+          {
+            "id": "deferred-revenue-product",
+            "number": "10.2",
+            "title": "Deferred Revenue: Recognising Revenue Over Time",
+            "description": "Spreading revenue across the periods it relates to.",
+            "lessons": [
+              {
+                "id": "deferred-revenue",
+                "title": "Deferred Revenue",
+                "slug": "deferred-revenue",
+                "question": "What month-end problem does Deferred Revenue help solve?",
+                "properExplanation": "Deferred Revenue helps finance teams reduce the manual work involved in recognising revenue over time. It supports the creation, review and posting of deferred revenue schedules, helping revenue appear in the correct accounting periods rather than being recognised too early.",
+                "simpleExplanation": "If a customer pays upfront, the business may still need to spread that revenue across future months. Deferred Revenue helps finance teams manage that process without relying on manual spreadsheets.",
+                "example": {
+                  "title": "Spreading a subscription",
+                  "body": "A customer pays £12,000 for a 12-month subscription. Instead of recognising all £12,000 in January, the finance team recognises £1,000 per month. Mayday helps create, review and post that schedule during month end."
+                },
+                "tags": ["mayday", "deferred revenue", "revenue recognition"]
+              }
+            ]
+          },
+          {
+            "id": "prepayments-product",
+            "number": "10.3",
+            "title": "Prepayments: Recognising Prepaid Expenses Over Time",
+            "description": "Spreading prepaid costs across the periods they relate to.",
+            "lessons": [
+              {
+                "id": "prepayments",
+                "title": "Prepayments",
+                "slug": "prepayments",
+                "question": "What month-end problem does Prepayments help solve?",
+                "properExplanation": "Prepayments helps finance teams reduce the manual work involved in recognising prepaid expenses. It supports the creation, review and posting of release schedules so costs are recognised over the periods they relate to, rather than all at once when the invoice is received or paid.",
+                "simpleExplanation": "If the business pays for something upfront, the cost may need to be spread across future months. Prepayments helps finance teams do that more quickly and consistently.",
+                "example": {
+                  "title": "Spreading annual insurance",
+                  "body": "A company pays £24,000 upfront for annual insurance. Instead of recording the full cost in one month, the finance team recognises £2,000 per month. Mayday helps manage the schedule and post the monthly release."
+                },
+                "tags": ["mayday", "prepayments", "month end"]
+              }
+            ]
+          },
+          {
+            "id": "flux-product",
+            "number": "10.4",
+            "title": "Flux: Explaining Month-on-Month P&L Movement",
+            "description": "Comparing P&Ls and adding variance commentary.",
+            "lessons": [
+              {
+                "id": "flux",
+                "title": "Flux",
+                "slug": "flux",
+                "question": "What month-end reporting problem does Flux help solve?",
+                "properExplanation": "Flux helps finance teams compare month-on-month P&Ls, identify meaningful changes and add variance commentary. It supports more accurate and informative month-end reporting by helping teams spot movements that need explanation and document the reasons behind them.",
+                "simpleExplanation": "Flux helps finance teams see what changed in the P&L from one month to the next and explain why it happened.",
+                "example": {
+                  "title": "Explaining a spike",
+                  "body": "Marketing spend increases from £20,000 in April to £35,000 in May. Flux highlights the movement and helps the finance team add commentary explaining that the increase was caused by a one-off event campaign."
+                },
+                "tags": ["mayday", "flux", "variance"]
+              }
+            ]
+          },
+          {
+            "id": "accruals-product",
+            "number": "10.5",
+            "title": "Accruals: Managing Costs Before the Invoice Arrives",
+            "description": "Recording costs in the right period before the bill arrives.",
+            "lessons": [
+              {
+                "id": "accruals",
+                "title": "Accruals",
+                "slug": "accruals",
+                "question": "What month-end problem does Accruals help solve?",
+                "properExplanation": "Accruals helps finance teams reduce the manual work involved in managing costs that belong in the current period but have not yet been invoiced. It supports recurring accrual schedules, ad-hoc accrual review and posting of accrual journals at month end.",
+                "simpleExplanation": "Sometimes a business has had a cost, but the invoice has not arrived yet. Accruals helps finance teams record that cost in the right month.",
+                "example": {
+                  "title": "Accruing legal support",
+                  "body": "A company receives legal support in June but the supplier invoice will arrive in July. The finance team needs to accrue £5,000 in June. Mayday helps manage the accrual and post the journal during month end."
+                },
+                "tags": ["mayday", "accruals", "month end"]
+              }
+            ]
+          },
+          {
+            "id": "close-management-product",
+            "number": "10.6",
+            "title": "Close Management: Running the Month-End Process",
+            "description": "Coordinating tasks, reviews and close progress.",
+            "lessons": [
+              {
+                "id": "close-management",
+                "title": "Close Management",
+                "slug": "close-management",
+                "question": "What month-end coordination problem does Close Management help solve?",
+                "properExplanation": "Close Management helps finance teams run a smoother month-end close by bringing tasks, balance sheet reconciliations, review workflows and close progress into one place. It helps teams understand what needs to be done, who owns each task, what has been reviewed and what is still outstanding.",
+                "simpleExplanation": "Close Management helps the finance team organise month end so everyone knows what to do, what is finished and what still needs checking.",
+                "example": {
+                  "title": "Owning close tasks",
+                  "body": "At month end, one person owns bank reconciliations, another owns accruals, and another owns balance sheet reviews. Instead of tracking progress in spreadsheets or messages, the team manages tasks, reviews and close status in Close Management."
+                },
+                "tags": ["mayday", "close management", "month end"]
+              }
+            ]
+          },
+          {
+            "id": "recharger-product",
+            "number": "10.7",
+            "title": "Recharger: Automating Recharges and Allocations",
+            "description": "Splitting and passing costs or revenue across entities and departments.",
+            "lessons": [
+              {
+                "id": "recharger",
+                "title": "Recharger",
+                "slug": "recharger",
+                "question": "What month-end problem does Recharger help solve?",
+                "properExplanation": "Recharger helps finance teams automate recharges and allocations that would otherwise slow month end down. This includes intercompany recharges, departmental recharges, revenue allocations, cost allocations and balance sheet allocations, with rules that calculate and post charges back to Xero, QuickBooks Online or Intuit Enterprise Suite.",
+                "simpleExplanation": "Recharger helps finance teams split and pass costs or revenue to the right entities or departments without building the same calculations manually every month.",
+                "example": {
+                  "title": "Recharging by headcount",
+                  "body": "A group company pays a £30,000 software bill used by several subsidiaries. The finance team needs to recharge the cost based on headcount. Recharger applies the rule, calculates each entity's share and posts the charges back to the accounting system."
+                },
+                "tags": ["mayday", "recharger", "intercompany"]
+              }
+            ]
+          },
+          {
+            "id": "balancer-product",
+            "number": "10.8",
+            "title": "Balancer: Keeping Intercompany Balances Aligned",
+            "description": "Checking that intercompany balances agree across entities.",
+            "lessons": [
+              {
+                "id": "balancer",
+                "title": "Balancer",
+                "slug": "balancer",
+                "question": "What month-end problem does Balancer help solve?",
+                "properExplanation": "Balancer helps finance teams keep intercompany accounts and AR/AP balances aligned across Xero, QuickBooks Online and Intuit Enterprise Suite. It reduces the manual checks involved in identifying mismatches, reviewing differences and resolving balances that do not agree between entities.",
+                "simpleExplanation": "Balancer helps finance teams check whether one company's you owe me balance matches the other company's I owe you balance.",
+                "example": {
+                  "title": "Spotting a mismatch",
+                  "body": "UK Ltd shows that US Inc owes it £10,000, but US Inc shows that it owes UK Ltd £9,750. Balancer helps the finance team spot the mismatch and investigate the difference before month end is finalised."
+                },
+                "tags": ["mayday", "balancer", "intercompany"]
+              }
+            ]
+          },
+          {
+            "id": "brag-product",
+            "number": "10.9",
+            "title": "BRAG: Reconciling Cross-Entity Bank Transactions",
+            "description": "Bank Reconciliation Across Group, from within Xero.",
+            "lessons": [
+              {
+                "id": "brag",
+                "title": "BRAG",
+                "slug": "brag",
+                "question": "What month-end problem does BRAG help solve?",
+                "properExplanation": "BRAG, or Bank Reconciliation Across Group, helps finance teams reconcile cross-entity transactions from within Xero's bank reconciliation dashboard. It reduces the manual work involved when a payment in one entity needs to be matched to a bill, invoice or transaction in another entity.",
+                "simpleExplanation": "BRAG helps when one company pays or receives money that actually relates to another company in the group.",
+                "example": {
+                  "title": "Paying another entity's bill",
+                  "body": "Company A pays a supplier bill that belongs to Company B. Instead of manually creating cross-entity entries and reconciling them separately, BRAG helps the finance team handle the cross-entity reconciliation from within Xero's bank rec workflow."
+                },
+                "tags": ["mayday", "brag", "bank reconciliation"]
+              }
+            ]
+          },
+          {
+            "id": "mayday-hq-product",
+            "number": "10.10",
+            "title": "Mayday HQ: Managing Group-Wide Accounting Structures",
+            "description": "Keeping accounting structures consistent across entities.",
+            "lessons": [
+              {
+                "id": "mayday-hq",
+                "title": "Mayday HQ",
+                "slug": "mayday-hq",
+                "question": "What control problem does Mayday HQ help solve?",
+                "properExplanation": "Mayday HQ helps finance teams keep group-wide accounting structures consistent across multiple entities. It supports better control over Chart of Accounts, Tracking Categories and key settings, making it easier to maintain clean reporting structures across a group.",
+                "simpleExplanation": "Mayday HQ helps make sure each entity is using the right accounting structure, so reporting does not become messy or inconsistent.",
+                "example": {
+                  "title": "Aligning ten entities",
+                  "body": "A group has ten Xero entities. Some have different account codes, missing tracking categories or inconsistent settings. Mayday HQ helps the finance team identify and manage those differences so the group's accounting structure stays cleaner."
+                },
+                "tags": ["mayday", "mayday hq", "controls"]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

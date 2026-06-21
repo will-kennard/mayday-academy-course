@@ -1,0 +1,530 @@
+{
+  "quiz": {
+    "id": "accounting-month-end-final-quiz",
+    "title": "Accounting and Month-End Quiz",
+    "description": "Test your understanding of accounting basics, month end and Mayday product workflows.",
+    "passMark": 70,
+    "questions": [
+      {
+        "id": "q1",
+        "number": 1,
+        "sectionId": "accounting-basics",
+        "lessonId": "debits-and-credits",
+        "question": "When finance people talk about debits and credits, what are they mainly referring to?",
+        "answers": [
+          { "id": "a", "label": "A", "text": "Money coming in and money going out of the bank" },
+          { "id": "b", "label": "B", "text": "The two sides of an accounting entry" },
+          { "id": "c", "label": "C", "text": "Profit and loss categories" },
+          { "id": "d", "label": "D", "text": "Customer and supplier balances" }
+        ]
+      },
+      {
+        "id": "q2",
+        "number": 2,
+        "sectionId": "accounting-basics",
+        "lessonId": "double-entry-bookkeeping",
+        "question": "What is the main rule of double-entry bookkeeping?",
+        "answers": [
+          { "id": "a", "label": "A", "text": "Every transaction must be recorded once" },
+          { "id": "b", "label": "B", "text": "Every transaction must increase profit" },
+          { "id": "c", "label": "C", "text": "Total debits must equal total credits" },
+          { "id": "d", "label": "D", "text": "Every transaction must involve cash" }
+        ]
+      },
+      {
+        "id": "q3",
+        "number": 3,
+        "sectionId": "accounting-basics",
+        "lessonId": "profit-and-loss",
+        "question": "What does the P&L show?",
+        "answers": [
+          { "id": "a", "label": "A", "text": "What the business owns and owes on one date" },
+          { "id": "b", "label": "B", "text": "Actual cash received and paid" },
+          { "id": "c", "label": "C", "text": "Income, costs and profit over a period" },
+          { "id": "d", "label": "D", "text": "The company's legal ownership structure" }
+        ]
+      },
+      {
+        "id": "q4",
+        "number": 4,
+        "sectionId": "accounting-basics",
+        "lessonId": "margins",
+        "question": "What does a profit margin show?",
+        "answers": [
+          { "id": "a", "label": "A", "text": "Profit as a percentage of revenue" },
+          { "id": "b", "label": "B", "text": "The total cash in the bank" },
+          { "id": "c", "label": "C", "text": "The company's assets minus liabilities" },
+          { "id": "d", "label": "D", "text": "The amount owed to suppliers" }
+        ]
+      },
+      {
+        "id": "q5",
+        "number": 5,
+        "sectionId": "accounting-basics",
+        "lessonId": "balance-sheet",
+        "question": "What does the balance sheet show?",
+        "answers": [
+          { "id": "a", "label": "A", "text": "The company's income and costs for the month" },
+          { "id": "b", "label": "B", "text": "What a company owns, owes and what belongs to owners at a point in time" },
+          { "id": "c", "label": "C", "text": "Only the company's bank transactions" },
+          { "id": "d", "label": "D", "text": "The company's future sales forecast" }
+        ]
+      },
+      {
+        "id": "q6",
+        "number": 6,
+        "sectionId": "accounting-basics",
+        "lessonId": "p-and-l-vs-cash-flow",
+        "question": "Why is a cash flow statement different from the P&L?",
+        "answers": [
+          { "id": "a", "label": "A", "text": "The P&L shows cash only, while cash flow shows profit" },
+          { "id": "b", "label": "B", "text": "The P&L shows income and costs by accounting period, while cash flow shows actual cash movements" },
+          { "id": "c", "label": "C", "text": "They are two names for the same report" },
+          { "id": "d", "label": "D", "text": "The cash flow statement only shows tax payments" }
+        ]
+      },
+      {
+        "id": "q7",
+        "number": 7,
+        "sectionId": "accounting-basics",
+        "lessonId": "solvency-vs-liquidity",
+        "question": "What is the difference between solvency and liquidity?",
+        "answers": [
+          { "id": "a", "label": "A", "text": "Solvency is about long-term financial health; liquidity is about short-term cash availability" },
+          { "id": "b", "label": "B", "text": "Solvency is about sales; liquidity is about profit" },
+          { "id": "c", "label": "C", "text": "Solvency is about tax; liquidity is about payroll" },
+          { "id": "d", "label": "D", "text": "Solvency and liquidity mean exactly the same thing" }
+        ]
+      },
+      {
+        "id": "q8",
+        "number": 8,
+        "sectionId": "accounting-timing-concepts",
+        "lessonId": "the-accruals-principle",
+        "question": "What does the accruals principle say?",
+        "answers": [
+          { "id": "a", "label": "A", "text": "Income and costs should only be recorded when cash moves" },
+          { "id": "b", "label": "B", "text": "Income and costs should be recorded in the period they relate to" },
+          { "id": "c", "label": "C", "text": "All costs should be recorded at year end only" },
+          { "id": "d", "label": "D", "text": "Revenue should always be recorded when a customer pays" }
+        ]
+      },
+      {
+        "id": "q9",
+        "number": 9,
+        "sectionId": "accounting-timing-concepts",
+        "lessonId": "accrual",
+        "question": "Which situation is an example of an accrual?",
+        "answers": [
+          { "id": "a", "label": "A", "text": "Paying upfront for a 12-month software subscription" },
+          { "id": "b", "label": "B", "text": "Receiving customer payment before delivering the service" },
+          { "id": "c", "label": "C", "text": "Receiving legal work in June but getting the invoice in July" },
+          { "id": "d", "label": "D", "text": "Buying equipment and using it for five years" }
+        ]
+      },
+      {
+        "id": "q10",
+        "number": 10,
+        "sectionId": "accounting-timing-concepts",
+        "lessonId": "prepayment",
+        "question": "Which situation is an example of a prepayment?",
+        "answers": [
+          { "id": "a", "label": "A", "text": "Paying annual insurance upfront and spreading the cost over 12 months" },
+          { "id": "b", "label": "B", "text": "Completing work before sending an invoice" },
+          { "id": "c", "label": "C", "text": "Owing a supplier for work already completed" },
+          { "id": "d", "label": "D", "text": "Paying interest on a bank loan" }
+        ]
+      },
+      {
+        "id": "q11",
+        "number": 11,
+        "sectionId": "accounting-workflows-and-finance-operations",
+        "lessonId": "bookkeeping-vs-accounting",
+        "question": "What is the best distinction between bookkeeping and accounting?",
+        "answers": [
+          { "id": "a", "label": "A", "text": "Bookkeeping records transactions; accounting interprets, adjusts and reports the numbers" },
+          { "id": "b", "label": "B", "text": "Bookkeeping is only for large businesses; accounting is only for small businesses" },
+          { "id": "c", "label": "C", "text": "Bookkeeping prepares tax returns; accounting only processes invoices" },
+          { "id": "d", "label": "D", "text": "There is no difference" }
+        ]
+      },
+      {
+        "id": "q12",
+        "number": 12,
+        "sectionId": "accounting-workflows-and-finance-operations",
+        "lessonId": "month-end",
+        "question": "What is month end?",
+        "answers": [
+          { "id": "a", "label": "A", "text": "The process of closing down a company" },
+          { "id": "b", "label": "B", "text": "The recurring process of finalising the accounts for a month" },
+          { "id": "c", "label": "C", "text": "The date when all invoices must legally be paid" },
+          { "id": "d", "label": "D", "text": "The annual process of filing statutory accounts" }
+        ]
+      },
+      {
+        "id": "q13",
+        "number": 13,
+        "sectionId": "accounting-workflows-and-finance-operations",
+        "lessonId": "year-end",
+        "question": "What is year end?",
+        "answers": [
+          { "id": "a", "label": "A", "text": "The process of closing the accounts for the financial year" },
+          { "id": "b", "label": "B", "text": "The monthly bank reconciliation process" },
+          { "id": "c", "label": "C", "text": "The process of paying employees" },
+          { "id": "d", "label": "D", "text": "The date a customer contract starts" }
+        ]
+      },
+      {
+        "id": "q14",
+        "number": 14,
+        "sectionId": "accounting-workflows-and-finance-operations",
+        "lessonId": "journals",
+        "question": "What is a journal in accounting?",
+        "answers": [
+          { "id": "a", "label": "A", "text": "A customer-facing invoice" },
+          { "id": "b", "label": "B", "text": "An accounting entry posted directly into the ledger" },
+          { "id": "c", "label": "C", "text": "A bank statement" },
+          { "id": "d", "label": "D", "text": "A shareholder report" }
+        ]
+      },
+      {
+        "id": "q15",
+        "number": 15,
+        "sectionId": "accounting-workflows-and-finance-operations",
+        "lessonId": "depreciation",
+        "question": "What is depreciation?",
+        "answers": [
+          { "id": "a", "label": "A", "text": "Recording a customer payment" },
+          { "id": "b", "label": "B", "text": "Spreading the cost of a fixed asset over its useful life" },
+          { "id": "c", "label": "C", "text": "Charging VAT on a sale" },
+          { "id": "d", "label": "D", "text": "Paying a dividend to shareholders" }
+        ]
+      },
+      {
+        "id": "q16",
+        "number": 16,
+        "sectionId": "accounting-workflows-and-finance-operations",
+        "lessonId": "invoices",
+        "question": "What is an invoice?",
+        "answers": [
+          { "id": "a", "label": "A", "text": "A document requesting payment for goods or services" },
+          { "id": "b", "label": "B", "text": "A list of shareholders" },
+          { "id": "c", "label": "C", "text": "A monthly profit report" },
+          { "id": "d", "label": "D", "text": "A bank reconciliation" }
+        ]
+      },
+      {
+        "id": "q17",
+        "number": 17,
+        "sectionId": "accounting-workflows-and-finance-operations",
+        "lessonId": "audit",
+        "question": "What is an audit?",
+        "answers": [
+          { "id": "a", "label": "A", "text": "A sales forecast" },
+          { "id": "b", "label": "B", "text": "An independent review of a company's financial statements and supporting records" },
+          { "id": "c", "label": "C", "text": "A customer payment request" },
+          { "id": "d", "label": "D", "text": "A process for setting marketing budgets" }
+        ]
+      },
+      {
+        "id": "q18",
+        "number": 18,
+        "sectionId": "management-reporting",
+        "lessonId": "management-accounts",
+        "question": "What are management accounts used for?",
+        "answers": [
+          { "id": "a", "label": "A", "text": "Internal reporting and decision-making" },
+          { "id": "b", "label": "B", "text": "Filing a company's official annual accounts only" },
+          { "id": "c", "label": "C", "text": "Replacing all bookkeeping" },
+          { "id": "d", "label": "D", "text": "Paying VAT automatically" }
+        ]
+      },
+      {
+        "id": "q19",
+        "number": 19,
+        "sectionId": "management-reporting",
+        "lessonId": "statutory-accounts",
+        "question": "What are statutory accounts?",
+        "answers": [
+          { "id": "a", "label": "A", "text": "Informal weekly finance updates" },
+          { "id": "b", "label": "B", "text": "Official financial statements prepared to meet legal and regulatory requirements" },
+          { "id": "c", "label": "C", "text": "Sales dashboards for marketing teams" },
+          { "id": "d", "label": "D", "text": "Internal-only management reports" }
+        ]
+      },
+      {
+        "id": "q20",
+        "number": 20,
+        "sectionId": "management-reporting",
+        "lessonId": "management-accounts-vs-statutory-accounts",
+        "question": "What is the main difference between management accounts and statutory accounts?",
+        "answers": [
+          { "id": "a", "label": "A", "text": "Management accounts are external; statutory accounts are internal" },
+          { "id": "b", "label": "B", "text": "Management accounts help run the business; statutory accounts meet formal reporting requirements" },
+          { "id": "c", "label": "C", "text": "Management accounts only show tax; statutory accounts only show sales" },
+          { "id": "d", "label": "D", "text": "They are the same thing" }
+        ]
+      },
+      {
+        "id": "q21",
+        "number": 21,
+        "sectionId": "management-reporting",
+        "lessonId": "ebitda",
+        "question": "What does EBITDA stand for?",
+        "answers": [
+          { "id": "a", "label": "A", "text": "Earnings Before Income, Tax, Debt and Assets" },
+          { "id": "b", "label": "B", "text": "Earnings Before Interest, Tax, Depreciation and Amortisation" },
+          { "id": "c", "label": "C", "text": "Equity Before Interest, Tax, Dividends and Assets" },
+          { "id": "d", "label": "D", "text": "Estimated Business Income, Tax, Debt and Amortisation" }
+        ]
+      },
+      {
+        "id": "q22",
+        "number": 22,
+        "sectionId": "management-reporting",
+        "lessonId": "marginal-costs-cost-of-sales-and-variable-costs",
+        "question": "Which statement best describes variable costs or cost of sales?",
+        "answers": [
+          { "id": "a", "label": "A", "text": "Costs that usually increase when the business sells more" },
+          { "id": "b", "label": "B", "text": "Costs that never change" },
+          { "id": "c", "label": "C", "text": "Costs paid only to shareholders" },
+          { "id": "d", "label": "D", "text": "Costs that are always excluded from the P&L" }
+        ]
+      },
+      {
+        "id": "q23",
+        "number": 23,
+        "sectionId": "management-reporting",
+        "lessonId": "fpa",
+        "question": "What does FP&A focus on?",
+        "answers": [
+          { "id": "a", "label": "A", "text": "Budgeting, forecasting, analysis and planning" },
+          { "id": "b", "label": "B", "text": "Only entering supplier bills" },
+          { "id": "c", "label": "C", "text": "Only preparing statutory accounts" },
+          { "id": "d", "label": "D", "text": "Only collecting customer payments" }
+        ]
+      },
+      {
+        "id": "q24",
+        "number": 24,
+        "sectionId": "business-structures-and-finance-teams",
+        "lessonId": "company-vs-partnership",
+        "question": "What is one key difference between a company and a partnership?",
+        "answers": [
+          { "id": "a", "label": "A", "text": "A company is usually a separate legal entity owned by shareholders" },
+          { "id": "b", "label": "B", "text": "A partnership can never make a profit" },
+          { "id": "c", "label": "C", "text": "A company cannot own assets" },
+          { "id": "d", "label": "D", "text": "A partnership must always be listed on a stock exchange" }
+        ]
+      },
+      {
+        "id": "q25",
+        "number": 25,
+        "sectionId": "business-structures-and-finance-teams",
+        "lessonId": "branch-vs-subsidiary",
+        "question": "What is the difference between a branch and a subsidiary?",
+        "answers": [
+          { "id": "a", "label": "A", "text": "A branch is an extension of the same legal entity; a subsidiary is a separate legal entity" },
+          { "id": "b", "label": "B", "text": "A branch is always larger than a subsidiary" },
+          { "id": "c", "label": "C", "text": "A subsidiary cannot have its own accounts" },
+          { "id": "d", "label": "D", "text": "A branch is owned by customers" }
+        ]
+      },
+      {
+        "id": "q26",
+        "number": 26,
+        "sectionId": "business-structures-and-finance-teams",
+        "lessonId": "accounting-qualifications",
+        "question": "What does an accounting qualification show?",
+        "answers": [
+          { "id": "a", "label": "A", "text": "Someone has formal training and assessment in accounting or finance" },
+          { "id": "b", "label": "B", "text": "Someone owns shares in the business" },
+          { "id": "c", "label": "C", "text": "Someone can approve every invoice without review" },
+          { "id": "d", "label": "D", "text": "Someone works only in tax" }
+        ]
+      },
+      {
+        "id": "q27",
+        "number": 27,
+        "sectionId": "tax-basics",
+        "lessonId": "tax",
+        "question": "What is tax?",
+        "answers": [
+          { "id": "a", "label": "A", "text": "Money paid to government under law" },
+          { "id": "b", "label": "B", "text": "Money paid only to suppliers" },
+          { "id": "c", "label": "C", "text": "A type of customer discount" },
+          { "id": "d", "label": "D", "text": "A finance team job title" }
+        ]
+      },
+      {
+        "id": "q28",
+        "number": 28,
+        "sectionId": "tax-basics",
+        "lessonId": "vat-gst-and-sales-tax",
+        "question": "What is VAT, GST or sales tax?",
+        "answers": [
+          { "id": "a", "label": "A", "text": "A tax charged on sales of goods or services" },
+          { "id": "b", "label": "B", "text": "A type of shareholder dividend" },
+          { "id": "c", "label": "C", "text": "A bank loan repayment" },
+          { "id": "d", "label": "D", "text": "A depreciation method" }
+        ]
+      },
+      {
+        "id": "q29",
+        "number": 29,
+        "sectionId": "tax-basics",
+        "lessonId": "paye-and-payg",
+        "question": "What is PAYE or PAYG for employment tax purposes?",
+        "answers": [
+          { "id": "a", "label": "A", "text": "A system where employers deduct employment tax through payroll and pay it to the tax authority" },
+          { "id": "b", "label": "B", "text": "A method for recognising deferred revenue" },
+          { "id": "c", "label": "C", "text": "A type of intercompany recharge" },
+          { "id": "d", "label": "D", "text": "A way to calculate gross margin" }
+        ]
+      },
+      {
+        "id": "q30",
+        "number": 30,
+        "sectionId": "funding-ownership-and-capital-structure",
+        "lessonId": "gearing",
+        "question": "What does gearing measure?",
+        "answers": [
+          { "id": "a", "label": "A", "text": "How much a business relies on debt compared with equity" },
+          { "id": "b", "label": "B", "text": "How quickly a company sends invoices" },
+          { "id": "c", "label": "C", "text": "How many customers a business has" },
+          { "id": "d", "label": "D", "text": "How much VAT a company collects" }
+        ]
+      },
+      {
+        "id": "q31",
+        "number": 31,
+        "sectionId": "financial-controls-and-data-structure",
+        "lessonId": "financial-controls",
+        "question": "What are financial controls?",
+        "answers": [
+          { "id": "a", "label": "A", "text": "Processes and checks used to protect the accuracy and reliability of financial information" },
+          { "id": "b", "label": "B", "text": "Marketing controls for campaign spend only" },
+          { "id": "c", "label": "C", "text": "Informal guesses about future sales" },
+          { "id": "d", "label": "D", "text": "A type of customer invoice" }
+        ]
+      },
+      {
+        "id": "q32",
+        "number": 32,
+        "sectionId": "financial-controls-and-data-structure",
+        "lessonId": "chart-of-accounts",
+        "question": "What is the Chart of Accounts?",
+        "answers": [
+          { "id": "a", "label": "A", "text": "The structured list of accounts used to categorise financial transactions" },
+          { "id": "b", "label": "B", "text": "A list of customers" },
+          { "id": "c", "label": "C", "text": "A cash flow forecast" },
+          { "id": "d", "label": "D", "text": "A list of employee salaries only" }
+        ]
+      },
+      {
+        "id": "q33",
+        "number": 33,
+        "sectionId": "financial-controls-and-data-structure",
+        "lessonId": "reporting-dimensions",
+        "question": "What are reporting dimensions?",
+        "answers": [
+          { "id": "a", "label": "A", "text": "Labels added to transactions so finance teams can analyse performance by department, location, project or similar categories" },
+          { "id": "b", "label": "B", "text": "The number of pages in a statutory account" },
+          { "id": "c", "label": "C", "text": "A type of company share" },
+          { "id": "d", "label": "D", "text": "A loan agreement" }
+        ]
+      },
+      {
+        "id": "q34",
+        "number": 34,
+        "sectionId": "multi-entity-intercompany-and-consolidation",
+        "lessonId": "consolidated-reporting",
+        "question": "What is consolidated reporting?",
+        "answers": [
+          { "id": "a", "label": "A", "text": "Combining multiple entities' financial results into one group-level view" },
+          { "id": "b", "label": "B", "text": "Recording one supplier bill" },
+          { "id": "c", "label": "C", "text": "Paying employees through payroll" },
+          { "id": "d", "label": "D", "text": "Preparing a single customer invoice" }
+        ]
+      },
+      {
+        "id": "q35",
+        "number": 35,
+        "sectionId": "multi-entity-intercompany-and-consolidation",
+        "lessonId": "eliminations",
+        "question": "What are eliminations in consolidation?",
+        "answers": [
+          { "id": "a", "label": "A", "text": "Adjustments that remove transactions and balances between entities in the same group" },
+          { "id": "b", "label": "B", "text": "Deleting all supplier invoices" },
+          { "id": "c", "label": "C", "text": "Removing all tax from the accounts" },
+          { "id": "d", "label": "D", "text": "Cancelling the month-end close" }
+        ]
+      },
+      {
+        "id": "q36",
+        "number": 36,
+        "sectionId": "mayday-products",
+        "lessonId": "mayday-overall",
+        "question": "What broad problem does Mayday help finance teams solve?",
+        "answers": [
+          { "id": "a", "label": "A", "text": "Automating and controlling recurring month-end workflows" },
+          { "id": "b", "label": "B", "text": "Replacing all accountants with sales software" },
+          { "id": "c", "label": "C", "text": "Designing company logos" },
+          { "id": "d", "label": "D", "text": "Filing personal tax returns for employees" }
+        ]
+      },
+      {
+        "id": "q37",
+        "number": 37,
+        "sectionId": "mayday-products",
+        "lessonId": "deferred-revenue",
+        "question": "What do Deferred Revenue and Prepayments both help with?",
+        "answers": [
+          { "id": "a", "label": "A", "text": "Spreading income or costs into the correct accounting periods" },
+          { "id": "b", "label": "B", "text": "Paying dividends to shareholders" },
+          { "id": "c", "label": "C", "text": "Creating new legal entities" },
+          { "id": "d", "label": "D", "text": "Replacing the balance sheet" }
+        ]
+      },
+      {
+        "id": "q38",
+        "number": 38,
+        "sectionId": "mayday-products",
+        "lessonId": "flux",
+        "question": "What does Flux help finance teams do?",
+        "answers": [
+          { "id": "a", "label": "A", "text": "Compare month-on-month P&Ls and add variance commentary" },
+          { "id": "b", "label": "B", "text": "Process payroll tax" },
+          { "id": "c", "label": "C", "text": "Create ordinary shares" },
+          { "id": "d", "label": "D", "text": "Register for VAT" }
+        ]
+      },
+      {
+        "id": "q39",
+        "number": 39,
+        "sectionId": "mayday-products",
+        "lessonId": "recharger",
+        "question": "Which statement best describes Recharger, Balancer and BRAG?",
+        "answers": [
+          { "id": "a", "label": "A", "text": "They help with multi-entity and intercompany month-end workflows" },
+          { "id": "b", "label": "B", "text": "They are all used only for employment tax" },
+          { "id": "c", "label": "C", "text": "They are all statutory accounts templates" },
+          { "id": "d", "label": "D", "text": "They are all shareholder management tools" }
+        ]
+      },
+      {
+        "id": "q40",
+        "number": 40,
+        "sectionId": "mayday-products",
+        "lessonId": "mayday-hq",
+        "question": "Which pairing is correct?",
+        "answers": [
+          { "id": "a", "label": "A", "text": "Mayday HQ helps manage group-wide accounting structures; Close Management helps organise tasks, reviews and close progress" },
+          { "id": "b", "label": "B", "text": "Mayday HQ prepares IPO filings; Close Management pays dividends" },
+          { "id": "c", "label": "C", "text": "Mayday HQ calculates payroll tax; Close Management creates preference shares" },
+          { "id": "d", "label": "D", "text": "Mayday HQ replaces the P&L; Close Management removes audit trails" }
+        ]
+      }
+    ]
+  }
+}

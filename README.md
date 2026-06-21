@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Mayday Academy
 
-## Getting Started
+A learning application for the **Accounting and Month-End Basics** course. Built with the Next.js App Router and powered by static JSON content, rendered primarily with React Server Components so course content is fast, indexable and easy to maintain.
 
-First, run the development server:
+## Features
+
+- **Homepage, course index, section and lesson pages** — server-rendered, statically generated and SEO-indexable.
+- **65 lessons across 10 sections** covering accounting basics, month end, management reporting, tax, funding, controls, consolidation and the Mayday product suite.
+- **Server-scored quiz** — a 40-question end-of-course quiz whose answer key never reaches the client. Scoring happens in an API route.
+- **Local storage progress tracking** — completed lessons and quiz score, as a progressive enhancement.
+- **Sitemap + robots** — indexable course pages only; the quiz is excluded and marked `noindex`.
+
+## Getting started
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm run build   # production build (static generation)
+npm run start   # serve the production build
+npm run lint    # eslint
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Project structure
 
-## Learn More
+```
+app/
+  page.tsx                              Homepage
+  course/page.tsx                       Course index
+  course/[sectionSlug]/page.tsx         Section page
+  course/[sectionSlug]/[lessonSlug]/    Lesson page
+  quiz/page.tsx                         Quiz (noindex)
+  api/quiz/score/route.ts               Server-side quiz scoring
+  sitemap.ts  robots.ts                 SEO
+components/
+  Navigation.tsx  Footer.tsx  Breadcrumb.tsx
+  course/                               Course UI components
+  quiz/                                 Quiz client components
+data/
+  course-content.json                   Course content (client-visible)
+  quiz-content.json                     Quiz questions, no answers (client-visible)
+  quiz-answers.json                     Answer key + explanations (server-only)
+lib/
+  types.ts course.ts quiz.ts routes.ts progress.ts
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Data model
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Three JSON files drive the app:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+| File | Purpose | Client visible? |
+| --- | --- | --- |
+| `data/course-content.json` | Course sections, subsections and lessons | Yes |
+| `data/quiz-content.json` | Quiz questions and answer options | Yes |
+| `data/quiz-answers.json` | Correct answers and explanations | No — server-only |
 
-## Deploy on Vercel
+`lib/quiz.ts` imports the answer key behind `import "server-only"`, and the only place answers are read is the `POST /api/quiz/score` route. Correct answers are returned only in the scoring response, after the user submits.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## A note on quiz security
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This is not secure exam software. A determined user could discover answers by submitting attempts and inspecting the scoring response. That is acceptable for a public educational tool. The goal is to keep the answer key out of the initial page source, static JSON, sitemap and client-side JavaScript bundle — which it is.
