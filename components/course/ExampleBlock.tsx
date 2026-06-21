@@ -10,7 +10,7 @@ export default function ExampleBlock({
       <p className="text-xs font-semibold uppercase tracking-wide text-accent">
         An example
       </p>
-      <h2 className="mt-2 text-base font-semibold tracking-tight">
+      <h2 className="font-poppins mt-2 text-lg font-semibold tracking-tight">
         {example.title}
       </h2>
       <p className="mt-2 leading-relaxed text-foreground/90">{example.body}</p>

@@ -15,7 +15,7 @@ export default function SectionCard({ section }: { section: CourseSection }) {
         <span className="grid h-9 w-9 shrink-0 place-items-center rounded-lg bg-brand-soft text-sm font-bold text-brand">
           {section.number}
         </span>
-        <h3 className="text-base font-semibold leading-snug tracking-tight group-hover:text-brand">
+        <h3 className="font-poppins text-base font-semibold leading-snug tracking-tight group-hover:text-heading">
           {section.title}
         </h3>
       </div>

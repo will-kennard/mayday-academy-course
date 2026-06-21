@@ -21,7 +21,7 @@ export default function CoursePage() {
   return (
     <div className="mx-auto max-w-5xl px-4 py-12 sm:px-6">
       <header className="mb-10 max-w-2xl">
-        <h1 className="text-3xl font-bold tracking-tight sm:text-4xl">
+        <h1 className="font-poppins text-3xl font-bold tracking-tight sm:text-4xl">
           {course.title}
         </h1>
         <p className="mt-3 leading-relaxed text-muted">{course.description}</p>

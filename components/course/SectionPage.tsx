@@ -20,7 +20,7 @@ export default function SectionPage({ section }: { section: CourseSection }) {
         <p className="text-sm font-semibold text-brand">
           Section {section.number}
         </p>
-        <h1 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">
+        <h1 className="font-poppins mt-2 text-3xl font-bold tracking-tight sm:text-4xl">
           {section.title}
         </h1>
         <p className="mt-3 leading-relaxed text-muted">{section.description}</p>
@@ -34,7 +34,7 @@ export default function SectionPage({ section }: { section: CourseSection }) {
       <div className="mt-10 space-y-8">
         {section.subsections.map((subsection) => (
           <section key={subsection.id}>
-            <h2 className="text-lg font-semibold tracking-tight">
+            <h2 className="font-poppins text-xl font-semibold tracking-tight">
               <span className="text-muted">{subsection.number}</span>{" "}
               {subsection.title}
             </h2>

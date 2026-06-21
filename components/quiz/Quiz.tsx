@@ -128,7 +128,7 @@ export default function Quiz({ quiz }: { quiz: PublicQuiz }) {
             type="button"
             onClick={handleSubmit}
             disabled={!allAnswered || submitting}
-            className="inline-flex h-12 w-full items-center justify-center rounded-lg bg-brand px-6 text-sm font-semibold text-brand-foreground transition-colors hover:opacity-90 disabled:cursor-not-allowed disabled:opacity-50 sm:w-auto"
+            className="inline-flex h-12 w-full items-center justify-center rounded-lg bg-brand px-6 text-sm font-semibold text-white transition-colors hover:opacity-90 disabled:cursor-not-allowed disabled:opacity-50 sm:w-auto"
           >
             {submitting ? "Scoring..." : "Submit quiz"}
           </button>

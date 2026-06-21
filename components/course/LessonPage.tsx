@@ -33,7 +33,7 @@ export default function LessonPage({
         <p className="text-sm font-medium text-brand">
           {subsection.number} {subsection.title}
         </p>
-        <h1 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">
+        <h1 className="font-poppins mt-2 text-3xl font-bold tracking-tight sm:text-4xl">
           {lesson.title}
         </h1>
         {lesson.tags && lesson.tags.length > 0 && (

@@ -2,25 +2,25 @@
   "answers": [
     {
       "questionId": "q1",
-      "correctAnswerId": "b",
+      "correctAnswerId": "c",
       "explanation": "Debits and credits are the two sides of an accounting entry. In double-entry bookkeeping, the total debits must equal the total credits.",
       "lessonId": "debits-and-credits"
     },
     {
       "questionId": "q2",
-      "correctAnswerId": "c",
+      "correctAnswerId": "a",
       "explanation": "The core rule of double-entry bookkeeping is that total debits must equal total credits, which keeps the accounts balanced.",
       "lessonId": "double-entry-bookkeeping"
     },
     {
       "questionId": "q3",
-      "correctAnswerId": "c",
+      "correctAnswerId": "d",
       "explanation": "The P&L shows income, costs and profit over a period of time, such as a month, quarter or year.",
       "lessonId": "profit-and-loss"
     },
     {
       "questionId": "q4",
-      "correctAnswerId": "a",
+      "correctAnswerId": "c",
       "explanation": "A margin shows profit as a percentage of revenue, making it easier to compare performance.",
       "lessonId": "margins"
     },
@@ -32,7 +32,7 @@
     },
     {
       "questionId": "q6",
-      "correctAnswerId": "b",
+      "correctAnswerId": "d",
       "explanation": "The P&L shows income and costs by accounting period, while the cash flow statement shows actual cash movements.",
       "lessonId": "p-and-l-vs-cash-flow"
     },
@@ -44,37 +44,37 @@
     },
     {
       "questionId": "q8",
-      "correctAnswerId": "b",
+      "correctAnswerId": "c",
       "explanation": "The accruals principle says income and costs should be recognised in the period they relate to, not just when cash moves.",
       "lessonId": "the-accruals-principle"
     },
     {
       "questionId": "q9",
-      "correctAnswerId": "c",
+      "correctAnswerId": "d",
       "explanation": "Receiving legal work in June but getting the invoice in July is an accrual: the cost is incurred before it is invoiced.",
       "lessonId": "accrual"
     },
     {
       "questionId": "q10",
-      "correctAnswerId": "a",
+      "correctAnswerId": "b",
       "explanation": "Paying annual insurance upfront and spreading the cost over 12 months is a prepayment: the cost is paid before the benefit is received.",
       "lessonId": "prepayment"
     },
     {
       "questionId": "q11",
-      "correctAnswerId": "a",
+      "correctAnswerId": "c",
       "explanation": "Bookkeeping records transactions, while accounting interprets, adjusts and reports the numbers.",
       "lessonId": "bookkeeping-vs-accounting"
     },
     {
       "questionId": "q12",
-      "correctAnswerId": "b",
+      "correctAnswerId": "a",
       "explanation": "Month end is the recurring process of finalising the accounts for a month.",
       "lessonId": "month-end"
     },
     {
       "questionId": "q13",
-      "correctAnswerId": "a",
+      "correctAnswerId": "d",
       "explanation": "Year end is the process of closing the accounts for the financial year, which is bigger and more formal than month end.",
       "lessonId": "year-end"
     },
@@ -86,37 +86,37 @@
     },
     {
       "questionId": "q15",
-      "correctAnswerId": "b",
+      "correctAnswerId": "a",
       "explanation": "Depreciation spreads the cost of a fixed asset over the period the business expects to use it.",
       "lessonId": "depreciation"
     },
     {
       "questionId": "q16",
-      "correctAnswerId": "a",
+      "correctAnswerId": "c",
       "explanation": "An invoice is a document requesting payment for goods or services.",
       "lessonId": "invoices"
     },
     {
       "questionId": "q17",
-      "correctAnswerId": "b",
+      "correctAnswerId": "d",
       "explanation": "An audit is an independent review of a company's financial statements and supporting records.",
       "lessonId": "audit"
     },
     {
       "questionId": "q18",
-      "correctAnswerId": "a",
+      "correctAnswerId": "b",
       "explanation": "Management accounts are internal reports used for understanding performance and making decisions.",
       "lessonId": "management-accounts"
     },
     {
       "questionId": "q19",
-      "correctAnswerId": "b",
+      "correctAnswerId": "a",
       "explanation": "Statutory accounts are official financial statements prepared to meet legal and regulatory requirements.",
       "lessonId": "statutory-accounts"
     },
     {
       "questionId": "q20",
-      "correctAnswerId": "b",
+      "correctAnswerId": "d",
       "explanation": "Management accounts help run the business, while statutory accounts meet formal, external reporting requirements.",
       "lessonId": "management-accounts-vs-statutory-accounts"
     },
@@ -128,7 +128,7 @@
     },
     {
       "questionId": "q22",
-      "correctAnswerId": "a",
+      "correctAnswerId": "c",
       "explanation": "Variable costs and cost of sales are costs that usually increase when the business sells more.",
       "lessonId": "marginal-costs-cost-of-sales-and-variable-costs"
     },
@@ -140,25 +140,25 @@
     },
     {
       "questionId": "q24",
-      "correctAnswerId": "a",
+      "correctAnswerId": "d",
       "explanation": "A company is usually a separate legal entity owned by shareholders, unlike a partnership.",
       "lessonId": "company-vs-partnership"
     },
     {
       "questionId": "q25",
-      "correctAnswerId": "a",
+      "correctAnswerId": "c",
       "explanation": "A branch is an extension of the same legal entity, while a subsidiary is a separate legal entity owned by the parent.",
       "lessonId": "branch-vs-subsidiary"
     },
     {
       "questionId": "q26",
-      "correctAnswerId": "a",
+      "correctAnswerId": "b",
       "explanation": "An accounting qualification shows someone has formal training and assessment in accounting or finance.",
       "lessonId": "accounting-qualifications"
     },
     {
       "questionId": "q27",
-      "correctAnswerId": "a",
+      "correctAnswerId": "d",
       "explanation": "Tax is money paid to government under law, used to fund public services.",
       "lessonId": "tax"
     },
@@ -170,19 +170,19 @@
     },
     {
       "questionId": "q29",
-      "correctAnswerId": "a",
+      "correctAnswerId": "c",
       "explanation": "PAYE and PAYG are systems where employers deduct employment tax through payroll and pay it to the tax authority.",
       "lessonId": "paye-and-payg"
     },
     {
       "questionId": "q30",
-      "correctAnswerId": "a",
+      "correctAnswerId": "b",
       "explanation": "Gearing measures how much a business relies on debt compared with equity.",
       "lessonId": "gearing"
     },
     {
       "questionId": "q31",
-      "correctAnswerId": "a",
+      "correctAnswerId": "d",
       "explanation": "Financial controls are processes and checks used to protect the accuracy and reliability of financial information.",
       "lessonId": "financial-controls"
     },
@@ -194,13 +194,13 @@
     },
     {
       "questionId": "q33",
-      "correctAnswerId": "a",
+      "correctAnswerId": "c",
       "explanation": "Reporting dimensions are labels added to transactions so finance teams can analyse performance by department, location, project or similar categories.",
       "lessonId": "reporting-dimensions"
     },
     {
       "questionId": "q34",
-      "correctAnswerId": "a",
+      "correctAnswerId": "b",
       "explanation": "Consolidated reporting combines multiple entities' financial results into one group-level view.",
       "lessonId": "consolidated-reporting"
     },

@@ -1,0 +1,60 @@
+## What is Mayday?
+
+Mayday combines month-end task coordination with powerful automation; turning time-consuming, error-prone manual processes into streamlined workflows, so finance teams can focus on strategy, not spreadsheet wrangling.
+
+## About Mayday
+
+Mayday reduces the month-end process from days to hours for both single and multi-entity organisations. Built for finance teams using Xero, QuickBooks Online and Intuit Enterprise Suite, Mayday gives teams one place to coordinate the close, track progress, manage tasks, review balance sheet recs, explain P&L variances and automate the workflows that usually live in spreadsheet-heavy processes. From intercompany reconciliations and recharges to prepayments, deferred revenue, accruals and adjusting journals, Mayday helps teams save time, improve control and close with confidence.
+
+## Key pages
+
+- Homepage: https://www.getmayday.com/
+- Balancer: https://www.getmayday.com/product/balancer
+- Recharger: https://www.getmayday.com/product/recharger
+- BRAG: https://www.getmayday.com/product/brag
+- Deferred Revenue: https://www.getmayday.com/product/deferred-revenue
+- Prepayments: https://www.getmayday.com/product/prepayments
+- Mayday HQ: https://www.getmayday.com/product/mayday-hq
+- The CFO Techstack Community: https://www.getmayday.com/cfotechstack
+- How I Stacked It: https://www.getmayday.com/cfotechstack/how-i-stacked-it
+
+## What we do
+
+- Mayday helps finance teams coordinate and automate month end.
+- For coordination, Mayday helps teams manage month-end tasks, balance sheet reconciliations, ownership, review status, audit evidence, and close progress tracking.
+- For automation, Mayday helps teams automate complex workflows including intercompany reconciliations, intercompany recharges, cross-entity bank reconciliation, deferred revenue, prepayments, and adjusting journals.
+- Mayday is especially valuable for finance teams that are scaling with Xero or QuickBooks Online and need more automation, visibility, and control without adopting a traditional ERP operating model.
+
+### Our Products
+
+- Deferred Revenue: reduces the manual work involved in recognising revenue over time, helping finance teams create, review and post deferred revenue schedules faster during month end.
+- Prepayments: reduces the manual work involved in recognising prepaid expenses, helping finance teams create, review and post release schedules faster during month end.
+- Flux: compares month-on-month P&L’s and allows you to get notifications of changes and apply variance commentary with the help of AI, keeping month-end reporting accurate and informative.
+- Accruals: helps finance teams reduce the manual work involved in managing accruals, from scheduling recurring items to reviewing and posting ad-hoc accrual journals at month end.
+- Close Management: Easy Month End helps finance teams run a smoother, faster month-end close by bringing tasks, balance sheet reconciliations, review workflows and close progress into one place.
+- Recharger: helps finance teams automate the recharges that usually slow month end down, from intercompany and departmental recharges, to revenue, cost and balance sheet allocations, with rules that calculate and post charges back to Xero, QuickBooks Online or Intuit Enterprise Suite.
+- Balancer: helps finance teams keep intercompany accounts and AR/AP balances aligned across Xero, QuickBooks Online and Intuit Enterprise Suite, reducing the manual checks that slow month end down.
+- BRAG: Bank Reconciliation Across Group - helps finance teams reconcile cross-entity transactions from within Xero’s bank rec dashboard, reducing the manual work involved in matching payments, bills and invoices across a group.
+- Mayday HQ: helps finance teams keep group-wide accounting structures consistent, making it easier to manage Chart of Accounts, Tracking Categories and key settings across multiple entities.
+
+## Key people
+
+- David Tuck: Co-Founder & CEO
+- James Scott-Griffin: Co-Founder & CPTO
+- Jack Thiel: Head of Community for CFO Techstack
+
+## Proof points
+
+- Mayday won Xero People's Choice App of the Year 2025.
+- CFO Techstack, produced by Mayday, is a community hub for finance leaders building modern finance functions that has grown to more than 13,000 finance leaders.
+- Mayday has supported 46 customers with revenue over $100m and 62 customers with revenue over $50m.
+- Mayday has over 300 5 star reviews on the Xero app store.
+
+## CTA context
+
+The primary conversion action for Mayday is:
+
+- Try for free, all new users get a 30 day free trial with no credit card required: https://my.getmayday.com/signup
+- To book a live demo: https://www.getmayday.com/book-a-demo
+
+Mayday is most relevant for finance leaders, CFOs, Heads of Finance, Financial Controllers, and in-house finance teams at growing businesses that need more control, automation, and visibility around month end.

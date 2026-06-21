@@ -24,16 +24,16 @@ export default function CourseHome({
           <span className="inline-flex items-center rounded-full bg-brand-soft px-3 py-1 text-xs font-semibold uppercase tracking-wide text-brand">
             Mayday Academy
           </span>
-          <h1 className="mt-5 max-w-3xl text-4xl font-bold tracking-tight sm:text-5xl">
+          <h1 className="font-poppins mt-5 max-w-3xl text-4xl font-bold tracking-tight sm:text-5xl">
             {course.title}
           </h1>
-          <p className="mt-4 max-w-2xl text-lg leading-relaxed text-muted">
+          <p className="mt-4 max-w-2xl text-lg leading-relaxed text-heading">
             {course.subtitle}
           </p>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <Link
               href={startHref}
-              className="inline-flex h-12 items-center justify-center rounded-lg bg-brand px-6 text-sm font-semibold text-brand-foreground transition-colors hover:opacity-90"
+              className="inline-flex h-12 items-center justify-center rounded-lg bg-brand px-6 text-sm font-semibold text-white transition-colors hover:opacity-90"
             >
               Start the course
             </Link>
@@ -63,7 +63,7 @@ export default function CourseHome({
 
       <section className="mx-auto max-w-5xl px-4 py-14 sm:px-6">
         <div className="mb-8 max-w-2xl">
-          <h2 className="text-2xl font-bold tracking-tight">
+          <h2 className="font-poppins text-3xl font-bold tracking-tight">
             Who this course is for
           </h2>
           <p className="mt-3 leading-relaxed text-muted">
@@ -76,21 +76,21 @@ export default function CourseHome({
 
         <div className="grid gap-4 sm:grid-cols-3">
           <div className="rounded-xl border border-border bg-surface p-5">
-            <h3 className="font-semibold">Learn the language</h3>
+            <h3 className="font-poppins font-semibold">Learn the language</h3>
             <p className="mt-2 text-sm leading-relaxed text-muted">
               Debits, credits, P&amp;L, balance sheet, accruals and the rest of
               the vocabulary finance teams use.
             </p>
           </div>
           <div className="rounded-xl border border-border bg-surface p-5">
-            <h3 className="font-semibold">Understand month end</h3>
+            <h3 className="font-poppins font-semibold">Understand month end</h3>
             <p className="mt-2 text-sm leading-relaxed text-muted">
               See how finance teams finalise the numbers each month and why
               accurate reporting matters.
             </p>
           </div>
           <div className="rounded-xl border border-border bg-surface p-5">
-            <h3 className="font-semibold">See how Mayday helps</h3>
+            <h3 className="font-poppins font-semibold">See how Mayday helps</h3>
             <p className="mt-2 text-sm leading-relaxed text-muted">
               Connect the concepts to the Mayday products that automate and
               control recurring month-end work.
@@ -100,7 +100,7 @@ export default function CourseHome({
 
         <div className="mt-14">
           <div className="mb-6 flex items-end justify-between">
-            <h2 className="text-2xl font-bold tracking-tight">Course content</h2>
+            <h2 className="font-poppins text-3xl font-bold tracking-tight">Course content</h2>
             <Link
               href={routes.course()}
               className="text-sm font-medium text-brand hover:underline"
@@ -112,7 +112,7 @@ export default function CourseHome({
         </div>
 
         <div className="mt-14 rounded-2xl border border-border bg-brand-soft p-8 text-center sm:p-12">
-          <h2 className="text-2xl font-bold tracking-tight">
+          <h2 className="font-poppins text-3xl font-bold tracking-tight">
             Ready to test your knowledge?
           </h2>
           <p className="mx-auto mt-3 max-w-xl text-muted">
@@ -122,7 +122,7 @@ export default function CourseHome({
           </p>
           <Link
             href={routes.quiz()}
-            className="mt-6 inline-flex h-12 items-center justify-center rounded-lg bg-brand px-6 text-sm font-semibold text-brand-foreground transition-colors hover:opacity-90"
+            className="mt-6 inline-flex h-12 items-center justify-center rounded-lg bg-brand px-6 text-sm font-semibold text-white transition-colors hover:opacity-90"
           >
             Take the quiz
           </Link>
