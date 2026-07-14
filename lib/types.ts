@@ -101,3 +101,14 @@ export type LessonWithContext = {
   sectionSlug: string;
   lessonSlug: string;
 };
+
+export type GlossaryTerm = {
+  term: string;
+  slug: string;
+  definition: string;
+};
+
+export type GlossaryLetterGroup = {
+  letter: string;
+  terms: GlossaryTerm[];
+};

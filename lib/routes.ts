@@ -7,6 +7,8 @@ export const routes = {
   lesson: (sectionSlug: string, lessonSlug: string) =>
     `/course/${sectionSlug}/${lessonSlug}`,
   quiz: () => "/quiz",
+  glossary: () => "/glossary",
+  glossaryTerm: (termSlug: string) => `/glossary/${termSlug}`,
 };
 
 export function lessonHref(lesson: LessonWithContext): string {

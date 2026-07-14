@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { getAllSections, getAllLessons } from "@/lib/course";
+import { getAllTerms } from "@/lib/glossary";
 import { absoluteUrl, routes } from "@/lib/routes";
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -17,6 +18,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: now,
       changeFrequency: "monthly",
       priority: 0.9,
+    },
+    {
+      url: absoluteUrl(routes.glossary()),
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.8,
     },
   ];
 
@@ -36,6 +43,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
+  const glossaryEntries: MetadataRoute.Sitemap = getAllTerms().map((term) => ({
+    url: absoluteUrl(routes.glossaryTerm(term.slug)),
+    lastModified: now,
+    changeFrequency: "monthly",
+    priority: 0.6,
+  }));
+
   // The quiz (/quiz) and the scoring API are intentionally excluded.
-  return [...staticEntries, ...sectionEntries, ...lessonEntries];
+  return [
+    ...staticEntries,
+    ...sectionEntries,
+    ...lessonEntries,
+    ...glossaryEntries,
+  ];
 }

@@ -5,6 +5,7 @@ import { routes } from "@/lib/routes";
 const links = [
   { href: routes.home(), label: "Home" },
   { href: routes.course(), label: "Course" },
+  { href: routes.glossary(), label: "Month-end Glossary" },
   { href: routes.quiz(), label: "Quiz" },
 ];
 

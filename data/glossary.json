@@ -1,0 +1,359 @@
+{
+  "terms": [
+    {
+      "term": "Accounts Payable",
+      "slug": "accounts-payable",
+      "definition": "Accounts payable (often shortened to AP) is the money your business owes to suppliers for goods or services it has already received. It sits on the balance sheet as a liability.\n\nAt month end, the AP team (or whoever owns the payables ledger) makes sure every unpaid supplier invoice is recorded in the right period, matches what was ordered and received, and reconciles to the AP control account in the general ledger."
+    },
+    {
+      "term": "Accounts Receivable",
+      "slug": "accounts-receivable",
+      "definition": "Accounts receivable (AR) is the money customers owe you for invoices you have already issued. It is an asset on the balance sheet because you expect to collect that cash.\n\nDuring month end, finance checks that sales invoices are posted correctly, that the AR subledger agrees to the control account, and that overdue balances are reviewed — including whether any need a bad debt provision."
+    },
+    {
+      "term": "Accrual",
+      "slug": "accrual",
+      "definition": "An accrual is a journal that records a cost (or sometimes income) in the period it relates to, even though the invoice or cash has not arrived yet.\n\nFor example, if consultants worked for you in March but their invoice arrives in April, you accrue the cost in March so the P&L reflects the real picture of that month. Accruals are one of the most common month-end adjustments."
+    },
+    {
+      "term": "Accruals Principle",
+      "slug": "accruals-principle",
+      "definition": "The accruals principle (also called accrual accounting) says you record income and expenses when they are earned or incurred, not when cash changes hands.\n\nIt is the foundation of modern financial reporting and the reason month-end involves accruals, prepayments, deferred revenue and other timing journals — so the accounts show what happened in the period, not just what was paid."
+    },
+    {
+      "term": "Accrued Revenue",
+      "slug": "accrued-revenue",
+      "definition": "Accrued revenue is income you have earned but have not yet invoiced. You recognise it on the P&L and record a corresponding asset on the balance sheet until the invoice is raised.\n\nThis often appears for services delivered over a month or project milestones that finish before the billing cycle. Month-end is when finance confirms those amounts and posts the accrual so revenue is not understated."
+    },
+    {
+      "term": "Aged Creditors",
+      "slug": "aged-creditors",
+      "definition": "An aged creditors report (or aged payables report) lists what you owe suppliers, broken down by how long each balance has been outstanding — typically current, 30, 60 and 90+ days.\n\nIt is used at month end and throughout the close to spot overdue bills, disputed invoices and cash-flow pressure, and to check that the payables ledger is complete and accurate."
+    },
+    {
+      "term": "Aged Debtors",
+      "slug": "aged-debtors",
+      "definition": "An aged debtors report (or aged receivables report) shows how much customers owe you, grouped by how overdue those balances are.\n\nFinance teams review it at month end to chase collections, decide on bad debt provisions, and confirm that the receivables subledger still ties to the balance sheet."
+    },
+    {
+      "term": "Amortisation",
+      "slug": "amortisation",
+      "definition": "Amortisation is the gradual write-down of an intangible asset’s cost over its useful life — similar to depreciation, but for things like software licences, patents or capitalised development.\n\nAt month end, amortisation journals are often run automatically from the fixed asset (or intangible) register so the P&L and balance sheet stay up to date."
+    },
+    {
+      "term": "Audit Trail",
+      "slug": "audit-trail",
+      "definition": "An audit trail is the record of who posted, changed or approved transactions and when. It links journals and adjustments back to supporting evidence and people.\n\nA clear audit trail makes month-end reviews faster, helps auditors follow your close process, and is a core part of good financial controls."
+    },
+    {
+      "term": "Bad Debt",
+      "slug": "bad-debt",
+      "definition": "A bad debt is an amount you expected to collect from a customer but now believe you will not get. When that becomes clear, you write it off (or provide for it) so receivables and profit are not overstated.\n\nMonth-end often includes reviewing aged debtors and posting a bad debt expense or provision where recovery looks unlikely."
+    },
+    {
+      "term": "Balance Sheet",
+      "slug": "balance-sheet",
+      "definition": "The balance sheet is a snapshot of what a business owns (assets), what it owes (liabilities) and what is left for the owners (equity) at a point in time — usually period end.\n\nMonth-end close is largely about getting the balance sheet right: reconciling control accounts, posting accruals and prepayments, and making sure every material balance is explained and supported."
+    },
+    {
+      "term": "Balance Sheet Reconciliation",
+      "slug": "balance-sheet-reconciliation",
+      "definition": "A balance sheet reconciliation is a check that a balance sheet account’s ledger balance matches supporting detail — bank statements, subledgers, schedules or other evidence — and that any difference is explained.\n\nReconciliations are a cornerstone of month end. They catch errors early, support the management accounts pack, and give confidence that the numbers are ready to report."
+    },
+    {
+      "term": "Bank Reconciliation",
+      "slug": "bank-reconciliation",
+      "definition": "A bank reconciliation compares the cash balance in your books to the balance on the bank statement, and explains timing differences such as outstanding cheques or deposits in transit.\n\nDoing this every period (often more often) is one of the first and most important month-end controls. Unreconciled cash is a red flag for incomplete or incorrect books."
+    },
+    {
+      "term": "Bookkeeping",
+      "slug": "bookkeeping",
+      "definition": "Bookkeeping is the day-to-day recording of financial transactions — invoices, bills, payments, receipts and journals — into the accounting system.\n\nClean bookkeeping through the month makes month-end close much smoother. When transactions are posted promptly and coded correctly, there is less catching up and fewer surprises at period end."
+    },
+    {
+      "term": "Cash Flow Statement",
+      "slug": "cash-flow-statement",
+      "definition": "The cash flow statement shows how cash moved in and out of the business over a period, usually split into operating, investing and financing activities.\n\nIt complements the P&L (which can show profit without cash) and the balance sheet. After month end, management often reviews cash flow alongside profit to understand liquidity and working capital."
+    },
+    {
+      "term": "Chart of Accounts",
+      "slug": "chart-of-accounts",
+      "definition": "The chart of accounts (CoA) is the structured list of all ledger accounts used to record transactions — typically grouped into assets, liabilities, equity, income and expenses.\n\nA clear, well-maintained chart of accounts keeps month-end reporting consistent. Bad coding or duplicate accounts create noise in the P&L and make reconciliations harder."
+    },
+    {
+      "term": "Close Calendar",
+      "slug": "close-calendar",
+      "definition": "A close calendar is the timetable for month-end tasks: who does what, by when, and in what order — from cutting off AP and AR through to publishing management accounts.\n\nIt turns the close into a managed process rather than a scramble, and helps the team hit a predictable reporting date each month."
+    },
+    {
+      "term": "Close Checklist",
+      "slug": "close-checklist",
+      "definition": "A close checklist is the list of steps required to finish month end — reconciliations, accruals, reviews, period lock and pack preparation, among others.\n\nChecklists reduce the risk of missed tasks, make handovers easier, and give managers a clear view of close progress."
+    },
+    {
+      "term": "Consolidation",
+      "slug": "consolidation",
+      "definition": "Consolidation is the process of combining the accounts of a parent company and its subsidiaries into a single set of group financial statements.\n\nAt month end for a group, consolidation often follows entity-level closes and includes eliminations of intercompany balances and transactions so the group numbers show the business as one economic unit."
+    },
+    {
+      "term": "Cost of Sales",
+      "slug": "cost-of-sales",
+      "definition": "Cost of sales (also called cost of goods sold, or COGS) is the direct cost of delivering the products or services you sold in the period — materials, direct labour and similar costs.\n\nGetting cost of sales right at month end matters for gross profit and margin analysis. Accruals for goods received but not invoiced are a common adjustment here."
+    },
+    {
+      "term": "Credit",
+      "slug": "credit",
+      "definition": "In double-entry bookkeeping, a credit is one side of every journal entry. Credits increase liabilities, equity and income, and decrease assets and expenses.\n\nUnderstanding debits and credits is essential for posting month-end journals correctly — an accrual that increases an expense is typically a debit to the P&L and a credit to a balance sheet liability."
+    },
+    {
+      "term": "Cut-off",
+      "slug": "cut-off",
+      "definition": "Cut-off is the rule that transactions belong in the period they relate to — not the period they were processed. Getting cut-off right means March revenue and costs stay in March, even if paperwork arrives in April.\n\nMonth-end procedures often include a hard cut-off for invoices and journals, plus reviews for goods received not invoiced and late billing, so the period is complete and accurate."
+    },
+    {
+      "term": "Debit",
+      "slug": "debit",
+      "definition": "In double-entry bookkeeping, a debit is the other side of every journal entry. Debits increase assets and expenses, and decrease liabilities, equity and income.\n\nEvery month-end journal must balance: total debits equal total credits. Mixing up debit and credit is one of the most common causes of reconciliation headaches."
+    },
+    {
+      "term": "Deferred Revenue",
+      "slug": "deferred-revenue",
+      "definition": "Deferred revenue (also called deferred income or unearned revenue) is cash or invoices received before you have fully delivered the related goods or services. It sits as a liability until you earn it.\n\nAt month end, finance releases the portion that has been earned into the P&L and leaves the remainder on the balance sheet. This is central to subscription and contract accounting."
+    },
+    {
+      "term": "Depreciation",
+      "slug": "depreciation",
+      "definition": "Depreciation spreads the cost of a tangible fixed asset (like equipment or vehicles) over the periods that benefit from it, rather than expensing the whole cost upfront.\n\nMonth-end usually includes running the depreciation journals from the fixed asset register so the P&L shows the period’s charge and the balance sheet shows net book value."
+    },
+    {
+      "term": "Double-Entry Bookkeeping",
+      "slug": "double-entry-bookkeeping",
+      "definition": "Double-entry bookkeeping is the system where every transaction is recorded with equal debits and credits, so the books always balance.\n\nIt underpins the general ledger, trial balance and all month-end journals. If an entry does not balance, something is wrong — and the trial balance will not either."
+    },
+    {
+      "term": "EBITDA",
+      "slug": "ebitda",
+      "definition": "EBITDA stands for earnings before interest, tax, depreciation and amortisation. It is a widely used measure of operating performance that strips out financing, tax and non-cash asset charges.\n\nManagement accounts packs often highlight EBITDA alongside gross and operating profit so leaders can compare performance without the noise of capital structure and accounting estimates."
+    },
+    {
+      "term": "Eliminations",
+      "slug": "eliminations",
+      "definition": "Eliminations are consolidation journals that remove intercompany transactions and balances so group accounts do not double-count sales, costs or receivables and payables within the group.\n\nAfter each entity has closed, the group close typically includes matching and eliminating those internal amounts. Incomplete eliminations distort consolidated profit and the balance sheet."
+    },
+    {
+      "term": "Equity",
+      "slug": "equity",
+      "definition": "Equity is the owners’ residual interest in the business: assets minus liabilities. It usually includes share capital, reserves and retained earnings.\n\nMonth-end does not always change equity accounts directly, but profit for the period flows into retained earnings, and dividends or share issues need careful treatment in the close."
+    },
+    {
+      "term": "Financial Controls",
+      "slug": "financial-controls",
+      "definition": "Financial controls are the policies, checks and processes that keep financial information accurate, complete and authorised — things like approvals, reconciliations, segregation of duties and period locks.\n\nA strong control environment makes month end more reliable and reduces the risk of error or fraud. Many close tasks exist specifically because they are key controls."
+    },
+    {
+      "term": "Fixed Asset Register",
+      "slug": "fixed-asset-register",
+      "definition": "The fixed asset register is the detailed list of tangible (and sometimes intangible) assets the business owns, including cost, useful life, depreciation method and net book value.\n\nAt month end it drives depreciation and amortisation journals and supports the fixed asset balances on the balance sheet. Additions, disposals and impairments should be reflected before close is finished."
+    },
+    {
+      "term": "Fixed Costs",
+      "slug": "fixed-costs",
+      "definition": "Fixed costs are expenses that stay broadly the same regardless of short-term changes in activity — rent, salaries for core staff, insurance and similar overheads.\n\nIn month-end reporting, separating fixed and variable costs helps explain margin movements and supports budgeting and forecasts."
+    },
+    {
+      "term": "Flux Analysis",
+      "slug": "flux-analysis",
+      "definition": "Flux analysis (or flux) is the review of how account balances or P&L lines have moved from one period to the next, with explanations for material changes.\n\nIt is a standard part of many month-end packs. Good flux commentary helps management understand what drove the numbers and helps catch unexpected or incorrect postings."
+    },
+    {
+      "term": "General Ledger",
+      "slug": "general-ledger",
+      "definition": "The general ledger (GL) is the master set of accounts that holds the full financial record of the business. Subledgers (like AP and AR) typically feed into GL control accounts.\n\nMonth end is when the GL is finalised for the period: journals posted, reconciliations complete, and the trial balance ready to feed management and statutory reporting."
+    },
+    {
+      "term": "General Journal",
+      "slug": "general-journal",
+      "definition": "A general journal (or manual journal) is a direct posting to the general ledger that is not driven automatically by an invoice, payment or system process.\n\nAccruals, prepayments, reclasses and many month-end adjustments are posted as general journals. They should be supported, approved and easy to reverse or unwind next period where needed."
+    },
+    {
+      "term": "Gross Profit",
+      "slug": "gross-profit",
+      "definition": "Gross profit is revenue minus cost of sales. It shows how much is left after the direct costs of delivering what you sold, before overheads and other operating expenses.\n\nMonth-end reporting almost always includes gross profit and gross margin, because they are early indicators of pricing, mix and cost control."
+    },
+    {
+      "term": "Hard Close",
+      "slug": "hard-close",
+      "definition": "A hard close is when the period is locked and no further postings are allowed without a formal re-open or adjusting process. The numbers for that month are treated as final for reporting purposes.\n\nTeams often move from a soft close (draft numbers) to a hard close once reviews and reconciliations are complete. The period lock enforces that boundary."
+    },
+    {
+      "term": "Intercompany Balances",
+      "slug": "intercompany-balances",
+      "definition": "Intercompany balances are amounts owed between entities in the same group — for example, one subsidiary invoicing another for services or shared costs.\n\nAt month end, those balances should match (or be explainably close) across entities before consolidation. Mismatches delay the group close and create elimination headaches."
+    },
+    {
+      "term": "Intercompany Reconciliation",
+      "slug": "intercompany-reconciliation",
+      "definition": "Intercompany reconciliation is the process of matching what one group entity has recorded against what its sister entities have recorded for the same transactions and balances.\n\nIt is a critical month-end step for multi-entity groups. Clearing differences early keeps consolidation clean and avoids last-minute fire drills."
+    },
+    {
+      "term": "Invoice",
+      "slug": "invoice",
+      "definition": "An invoice is a formal request for payment — a sales invoice to a customer or a purchase invoice (bill) from a supplier. It is a primary source document for bookkeeping and tax.\n\nMonth-end cut-off depends heavily on which invoices have been raised and received. Late invoices often drive accruals so the period still reflects the underlying activity."
+    },
+    {
+      "term": "Journal Entry",
+      "slug": "journal-entry",
+      "definition": "A journal entry is a posting of debits and credits to the ledger that records a financial event. It can come from an automatic process (like posting an invoice) or be entered manually.\n\nMonth end is full of journal entries: accruals, prepayments, depreciation, payroll, tax and reclasses. Each should balance, be coded correctly and leave an audit trail."
+    },
+    {
+      "term": "Liquidity",
+      "slug": "liquidity",
+      "definition": "Liquidity is the ability to meet short-term obligations as they fall due — essentially, whether you have enough accessible cash or near-cash assets.\n\nAfter month end, management often looks at cash, working capital and aged payables/receivables together to judge liquidity, even if the P&L looks healthy."
+    },
+    {
+      "term": "Management Accounts",
+      "slug": "management-accounts",
+      "definition": "Management accounts are the internal financial reports produced for decision-makers — usually monthly — covering the P&L, balance sheet, cash and commentary such as flux or variance analysis.\n\nThey are the main output of many month-end closes. Speed and clarity matter: the goal is useful insight while the period is still recent enough to act on."
+    },
+    {
+      "term": "Matching Principle",
+      "slug": "matching-principle",
+      "definition": "The matching principle says expenses should be recognised in the same period as the income they helped generate, where that relationship can be reasonably established.\n\nIt works hand in hand with the accruals principle and explains why month end includes cost accruals, deferred costs and careful cut-off on revenue and COGS."
+    },
+    {
+      "term": "Month-End Close",
+      "slug": "month-end-close",
+      "definition": "Month-end close is the process of finishing the books for a calendar month: posting adjustments, completing reconciliations, reviewing results and producing reports so the period can be locked.\n\nIt is a recurring cycle for almost every finance team. A well-run close is predictable, controlled and focused on accuracy — not heroic last-minute fixes."
+    },
+    {
+      "term": "Net Assets",
+      "slug": "net-assets",
+      "definition": "Net assets equal total assets minus total liabilities — the same figure as equity on a simple balance sheet. They represent the residual value attributable to the owners.\n\nMonth-end reviews sometimes highlight net assets (or net liabilities) as a quick read on financial position, especially for smaller entities or parent company accounts."
+    },
+    {
+      "term": "Net Profit",
+      "slug": "net-profit",
+      "definition": "Net profit (or net income) is what remains after all expenses, including interest, tax and non-operating items, have been deducted from revenue.\n\nIt is the bottom line of the P&L and typically flows into retained earnings on the balance sheet once the period is closed."
+    },
+    {
+      "term": "Operating Profit",
+      "slug": "operating-profit",
+      "definition": "Operating profit is profit from core trading activities after operating expenses, but before interest and tax (and sometimes before other non-operating items).\n\nManagement accounts often emphasise operating profit because it shows how the underlying business performed, separate from financing decisions."
+    },
+    {
+      "term": "Overheads",
+      "slug": "overheads",
+      "definition": "Overheads are the ongoing costs of running the business that are not directly tied to a single unit of product or service — things like rent, utilities, admin salaries and office software.\n\nAt month end, overhead accruals (utilities, professional fees, subscriptions) are common so the P&L is not understated while invoices are still outstanding."
+    },
+    {
+      "term": "Payroll Journal",
+      "slug": "payroll-journal",
+      "definition": "The payroll journal posts salary, employer taxes, pensions and related deductions into the ledgers for the period — often from a payroll system export.\n\nIt is a key month-end journal. Timing differences between pay date and period end, plus bonuses or holidays, may need accruals so staff costs land in the right month."
+    },
+    {
+      "term": "Period Lock",
+      "slug": "period-lock",
+      "definition": "A period lock prevents further postings to a closed accounting period, protecting the reported numbers from accidental change.\n\nLocking the period is usually one of the last steps in a hard close. If a genuine correction is needed later, it should go through a controlled re-open or post-close adjustment process."
+    },
+    {
+      "term": "Post-Close Adjustment",
+      "slug": "post-close-adjustment",
+      "definition": "A post-close adjustment is a correction made after the period has already been closed or reported — for example, fixing an error found during audit or a late material invoice.\n\nThese should be rare, controlled and clearly documented. Frequent post-close adjustments usually signal that the close process or cut-off rules need strengthening."
+    },
+    {
+      "term": "Prepayment",
+      "slug": "prepayment",
+      "definition": "A prepayment is an expense you have paid (or been invoiced for) in advance. You hold it as an asset and release it to the P&L over the periods it covers.\n\nInsurance, rent and annual software licences are classic examples. Month end includes calculating how much of each prepayment has been used up and posting the release."
+    },
+    {
+      "term": "Profit and Loss",
+      "slug": "profit-and-loss",
+      "definition": "The profit and loss account (P&L), also called the income statement, shows income and expenses over a period and the resulting profit or loss.\n\nTogether with the balance sheet, it is the heart of month-end reporting. Most close activities — accruals, depreciation, payroll, revenue recognition — exist to make the P&L reflect the right period."
+    },
+    {
+      "term": "Provision",
+      "slug": "provision",
+      "definition": "A provision is a liability of uncertain timing or amount that you recognise when you have a present obligation and can estimate the cost reliably — for example, warranties, restructuring or legal claims.\n\nMonth end may include reviewing whether existing provisions still make sense and whether new ones are needed, so the balance sheet is not misleadingly optimistic."
+    },
+    {
+      "term": "Recharge",
+      "slug": "recharge",
+      "definition": "A recharge is the allocation of a cost from one entity, department or cost centre to another that benefits from it — for example, central IT costs recharged to operating units.\n\nMonth-end recharges keep management reporting fair and complete. In groups, they often create intercompany balances that later need reconciliation and elimination."
+    },
+    {
+      "term": "Reconciliation",
+      "slug": "reconciliation",
+      "definition": "A reconciliation is a structured comparison between two sets of figures — for example, the ledger versus a bank statement or subledger — until differences are identified and explained.\n\nReconciliations are the quality control of month end. Unreconciled accounts mean you cannot fully trust the management accounts."
+    },
+    {
+      "term": "Reporting Dimensions",
+      "slug": "reporting-dimensions",
+      "definition": "Reporting dimensions are extra tags on transactions — department, location, project, product line and so on — that let you slice the same ledger data in different ways.\n\nConsistent use of dimensions through the month makes month-end reporting richer and reduces the need for offline spreadsheets to analyse performance."
+    },
+    {
+      "term": "Retained Earnings",
+      "slug": "retained-earnings",
+      "definition": "Retained earnings are the cumulative profits kept in the business after dividends (and other distributions) rather than paid out to owners.\n\nAfter month end, the period’s net profit is typically closed into retained earnings, which is why the balance sheet equity section moves in line with cumulative results."
+    },
+    {
+      "term": "Revenue Recognition",
+      "slug": "revenue-recognition",
+      "definition": "Revenue recognition is the set of rules for when income is recorded on the P&L — generally when you have earned it by transferring goods or services, not simply when you invoice or get paid.\n\nMonth end is when deferred revenue releases, accrued revenue and cut-off checks bring recognised revenue in line with those rules."
+    },
+    {
+      "term": "Segregation of Duties",
+      "slug": "segregation-of-duties",
+      "definition": "Segregation of duties means splitting key finance tasks so no single person can initiate, approve and record a transaction end to end without oversight.\n\nIt is a fundamental control around month-end journals and payments. Even in small teams, compensating reviews help reduce the risk of error or fraud."
+    },
+    {
+      "term": "Soft Close",
+      "slug": "soft-close",
+      "definition": "A soft close produces draft period results quickly — often for early management visibility — while allowing some remaining adjustments before the hard close and period lock.\n\nMany teams aim for a fast soft close followed by a tighter hard close, balancing speed of insight with final accuracy."
+    },
+    {
+      "term": "Solvency",
+      "slug": "solvency",
+      "definition": "Solvency is whether a business can meet its longer-term obligations and remain a going concern — typically judged by whether assets adequately cover liabilities over time.\n\nIt is distinct from short-term liquidity. Month-end balance sheets and net assets figures feed into solvency assessments by management, lenders and auditors."
+    },
+    {
+      "term": "Statutory Accounts",
+      "slug": "statutory-accounts",
+      "definition": "Statutory accounts are the formal financial statements a company must prepare and file under law and accounting standards — as opposed to internal management accounts.\n\nMonth-end management closes feed into year-end statutory reporting. Keeping monthly numbers clean reduces the pain of the annual audit and filing process."
+    },
+    {
+      "term": "Suspense Account",
+      "slug": "suspense-account",
+      "definition": "A suspense account is a temporary holding account used when you need to post something but do not yet know the correct coding or treatment.\n\nClearing suspense is a classic month-end task. Large or ageing suspense balances usually mean incomplete books and should be investigated before you call the close done."
+    },
+    {
+      "term": "Trial Balance",
+      "slug": "trial-balance",
+      "definition": "The trial balance is a list of all general ledger accounts and their debit or credit balances at a point in time. In a double-entry system, total debits should equal total credits.\n\nIt is a key checkpoint in month end: if the trial balance does not balance, or if unexpected balances appear, you investigate before finalising the reports."
+    },
+    {
+      "term": "Variable Costs",
+      "slug": "variable-costs",
+      "definition": "Variable costs change with the level of activity — materials used in each unit sold, payment processing fees, or contractor hours tied to delivery, for example.\n\nUnderstanding variable versus fixed costs at month end helps explain margin movements and supports contribution and break-even analysis."
+    },
+    {
+      "term": "Variance Analysis",
+      "slug": "variance-analysis",
+      "definition": "Variance analysis compares actual results to budget, forecast or prior periods and explains the differences.\n\nAlongside flux analysis, it is a staple of the month-end management pack. Clear variance commentary turns raw numbers into decisions."
+    },
+    {
+      "term": "VAT",
+      "slug": "vat",
+      "definition": "VAT (Value Added Tax) is a consumption tax charged on many goods and services. Businesses typically collect VAT on sales, reclaim VAT on purchases, and settle the net amount with the tax authority.\n\nMonth end often includes checking VAT coding, reconciling VAT control accounts and preparing or reviewing the return period figures so tax and the ledgers stay aligned."
+    },
+    {
+      "term": "Working Capital",
+      "slug": "working-capital",
+      "definition": "Working capital is typically current assets minus current liabilities — a measure of the short-term financial cushion available to run the business day to day.\n\nMovements in debtors, creditors and inventory during month end feed directly into working capital. Finance leaders watch it closely because profit alone does not guarantee cash is available."
+    },
+    {
+      "term": "Year End",
+      "slug": "year-end",
+      "definition": "Year end is the close of the financial year: a fuller version of month end that feeds statutory accounts, tax filings and the annual audit.\n\nMany of the same disciplines apply — cut-off, reconciliations, accruals — but with more review, more documentation and often additional adjustments that only happen annually."
+    }
+  ]
+}
