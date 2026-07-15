@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Poppins } from "next/font/google";
+import { Geist, Geist_Mono, Permanent_Marker, Poppins } from "next/font/google";
 import "./globals.css";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
@@ -20,6 +20,12 @@ const poppins = Poppins({
   variable: "--font-poppins-family",
   subsets: ["latin"],
   weight: ["400", "600", "700"],
+});
+
+const permanentMarker = Permanent_Marker({
+  variable: "--font-permanent-marker-family",
+  subsets: ["latin"],
+  weight: "400",
 });
 
 const course = getCourse();
@@ -47,7 +53,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} ${poppins.variable} h-full antialiased`}
+      className={`${geistSans.variable} ${geistMono.variable} ${poppins.variable} ${permanentMarker.variable} h-full antialiased`}
     >
       <body className="flex min-h-full flex-col bg-background text-foreground">
         <Navigation />

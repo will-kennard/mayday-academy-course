@@ -9,6 +9,7 @@ export const routes = {
   quiz: () => "/quiz",
   glossary: () => "/glossary",
   glossaryTerm: (termSlug: string) => `/glossary/${termSlug}`,
+  landing: () => "/landing",
 };
 
 export function lessonHref(lesson: LessonWithContext): string {
