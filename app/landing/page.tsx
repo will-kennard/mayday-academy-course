@@ -262,7 +262,7 @@ export default function LandingPage() {
             Start a 30 day no card free trial
           </h2>
           <a
-            href="https://www.mayday.app"
+            href="https://my.getmayday.com/signup"
             target="_blank"
             rel="noopener noreferrer"
             className="mt-4 inline-block -rotate-1 bg-[#FF4461] px-7 py-3 font-marker text-xl uppercase text-white shadow-[6px_6px_0_#ffffff] transition-transform hover:rotate-0 hover:scale-105 sm:text-2xl"
@@ -272,7 +272,7 @@ export default function LandingPage() {
           <p className="mt-4 font-poppins text-base text-white/90 sm:text-lg">
             or{" "}
             <a
-              href="https://www.mayday.app"
+              href="https://www.getmayday.com/book-a-demo"
               target="_blank"
               rel="noopener noreferrer"
               className="font-semibold text-white underline decoration-[#FF4461] decoration-2 underline-offset-4 transition-colors hover:text-[#FF4461]"
