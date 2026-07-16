@@ -164,11 +164,11 @@ export default function LandingPage() {
       >
         <h2 className="text-2xl leading-snug text-inherit sm:text-3xl lg:text-4xl">
           <span className="relative inline-block">
-            <span className="font-marker text-4xl uppercase text-white sm:text-5xl">
+            <span className="font-marker text-5xl uppercase tracking-wide text-white sm:text-6xl lg:text-7xl">
               AUTOMATE
             </span>
             <span className="absolute -right-4 -top-5 rotate-12 font-marker text-sm text-[#FF4461] sm:-right-8 sm:text-base">
-              (more automate!)
+              (BALANCER)
             </span>
           </span>
           <span className="mt-3 block font-poppins font-semibold text-white">
@@ -176,7 +176,7 @@ export default function LandingPage() {
             <span className="underline decoration-[#FF4461] decoration-[3px] underline-offset-4">
               intercompany
             </span>{" "}
-            and{" "}
+            &{" "}
             <span className="underline decoration-[#FF4461] decoration-[3px] underline-offset-4">
               interdepartmental
             </span>{" "}
@@ -256,30 +256,34 @@ export default function LandingPage() {
       </FeatureSection>
 
       {/* Bottom CTA */}
-      <section className="w-full bg-[#241D6A] px-4 py-8 text-center text-white sm:px-6 sm:py-10">
-        <div className="mx-auto max-w-2xl">
-          <h2 className="font-marker text-3xl uppercase leading-tight text-white sm:text-4xl">
-            Start a 30 day no card free trial
+      <section className="flex min-h-[220px] w-full items-center bg-[#FF4461] px-4 py-10 text-white sm:min-h-[260px] sm:px-6 sm:py-12">
+        <div className="mx-auto flex w-full max-w-4xl flex-col items-center justify-center gap-5 sm:flex-row sm:items-center sm:justify-between sm:gap-10">
+          <h2 className="text-center sm:text-left">
+            <span className="font-marker block -rotate-1 text-4xl uppercase leading-[0.95] tracking-wide text-white sm:text-5xl lg:text-6xl">
+              30 days free.
+            </span>
+            <span className="font-marker mt-1 block rotate-2 text-3xl uppercase leading-[0.95] tracking-[0.18em] text-white/95 sm:text-4xl lg:text-5xl">
+              No card.
+            </span>
           </h2>
-          <a
-            href="https://my.getmayday.com/signup"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="mt-4 inline-block -rotate-1 bg-[#FF4461] px-7 py-3 font-marker text-xl uppercase text-white shadow-[6px_6px_0_#ffffff] transition-transform hover:rotate-0 hover:scale-105 sm:text-2xl"
-          >
-            Start free trial
-          </a>
-          <p className="mt-4 font-poppins text-base text-white/90 sm:text-lg">
-            or{" "}
+          <div className="flex flex-col items-center gap-2 sm:items-end sm:gap-2">
+            <a
+              href="https://my.getmayday.com/signup"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex -rotate-1 bg-white px-7 py-3 font-marker text-xl uppercase text-[#241D6A] shadow-[5px_5px_0_#241D6A] transition-transform hover:rotate-0 hover:scale-105 sm:text-2xl"
+            >
+              Start free trial
+            </a>
             <a
               href="https://www.getmayday.com/book-a-demo"
               target="_blank"
               rel="noopener noreferrer"
-              className="font-semibold text-white underline decoration-[#FF4461] decoration-2 underline-offset-4 transition-colors hover:text-[#FF4461]"
+              className="font-poppins text-sm text-white/90 underline decoration-white/60 underline-offset-4 transition-colors hover:text-white hover:decoration-white sm:text-base"
             >
-              book a demo with our accounting experts!
+              or book a demo with our accounting experts!
             </a>
-          </p>
+          </div>
         </div>
       </section>
     </div>

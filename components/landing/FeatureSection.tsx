@@ -1,5 +1,8 @@
 import Image from "next/image";
 import type { ReactNode } from "react";
+import DemoVideo from "@/components/landing/DemoVideo";
+
+const DEFAULT_VIDEO_SRC = "/videos/balancer-demo.mp4";
 
 type FeatureSectionProps = {
   backgroundColor: string;
@@ -8,6 +11,9 @@ type FeatureSectionProps = {
   imageAlt: string;
   /** When true, image is on the left and heading on the right (desktop) */
   imageLeft?: boolean;
+  /** Demo clip under the heading+image pair. Defaults to the shared balancer demo. */
+  videoSrc?: string;
+  videoLabel?: string;
   children: ReactNode;
 };
 
@@ -17,6 +23,8 @@ export default function FeatureSection({
   imageSrc,
   imageAlt,
   imageLeft = false,
+  videoSrc = DEFAULT_VIDEO_SRC,
+  videoLabel,
   children,
 }: FeatureSectionProps) {
   return (
@@ -41,6 +49,7 @@ export default function FeatureSection({
           />
         </div>
       </div>
+      <DemoVideo src={videoSrc} label={videoLabel ?? `${imageAlt} demo`} />
     </section>
   );
 }
