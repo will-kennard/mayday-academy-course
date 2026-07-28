@@ -20,7 +20,14 @@ function isActive(pathname: string, href: string) {
 export default function AcademySubnav() {
   const pathname = usePathname();
 
-  if (pathname === "/glossary" || pathname.startsWith("/glossary/")) {
+  if (
+    pathname === "/glossary" ||
+    pathname.startsWith("/glossary/") ||
+    pathname === "/resources" ||
+    pathname.startsWith("/resources/") ||
+    pathname === "/landing" ||
+    pathname.startsWith("/landing/")
+  ) {
     return null;
   }
 

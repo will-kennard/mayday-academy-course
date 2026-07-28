@@ -70,3 +70,60 @@ h3 {
     color: inherit;
   }
 }
+
+/* Thumb-friendly range inputs for the month-end cost calculator */
+.mec-slider {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 2.75rem;
+  background: transparent;
+  cursor: pointer;
+}
+
+.mec-slider:focus-visible {
+  outline: none;
+}
+
+.mec-slider::-webkit-slider-runnable-track {
+  height: 0.5rem;
+  border-radius: 9999px;
+  background: color-mix(in oklab, var(--brand) 18%, white);
+}
+
+.mec-slider::-moz-range-track {
+  height: 0.5rem;
+  border-radius: 9999px;
+  background: color-mix(in oklab, var(--brand) 18%, white);
+}
+
+.mec-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 1.75rem;
+  height: 1.75rem;
+  margin-top: -0.625rem;
+  border-radius: 9999px;
+  border: 3px solid white;
+  background: var(--brand);
+  box-shadow: 0 1px 4px rgb(14 12 42 / 0.25);
+}
+
+.mec-slider::-moz-range-thumb {
+  width: 1.75rem;
+  height: 1.75rem;
+  border-radius: 9999px;
+  border: 3px solid white;
+  background: var(--brand);
+  box-shadow: 0 1px 4px rgb(14 12 42 / 0.25);
+}
+
+.mec-slider:focus-visible::-webkit-slider-thumb {
+  outline: 2px solid var(--mayday-red);
+  outline-offset: 2px;
+}
+
+.mec-slider:focus-visible::-moz-range-thumb {
+  outline: 2px solid var(--mayday-red);
+  outline-offset: 2px;
+}

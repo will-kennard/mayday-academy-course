@@ -10,6 +10,7 @@ export const routes = {
   glossary: () => "/glossary",
   glossaryTerm: (termSlug: string) => `/glossary/${termSlug}`,
   landing: () => "/landing",
+  monthEndCostCalculator: () => "/resources/month-end-cost-calculator",
 };
 
 export function lessonHref(lesson: LessonWithContext): string {

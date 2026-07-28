@@ -1,0 +1,198 @@
+# On-page copy: Month-End Cost Calculator
+
+## SEO / metadata
+
+**Meta title** (56 chars): Month-End Cost Calculator | What Your Close Really Costs
+
+**Meta description** (152 chars): Work out what the manual half of your month-end close costs you each year, and see how your process compares. A short quiz, full result, no signup.
+
+**OG title:** How much does your month end actually cost?
+**OG description:** Answer a short quiz for an estimate of what your close costs every year — and how mature your process is.
+
+---
+
+## Hero
+
+**H1:** How much does your month end actually cost?
+
+**Sub:** Bookkeeping is automated. Reporting is automated. The bit in between still isn't — and it quietly eats a week of every month. Answer a short quiz for an estimate of what that costs you a year, and how mature your process is.
+
+**Reassurance line** (small, directly beneath): No signup. Your full result appears when you finish both parts.
+
+*Alternative H1s if you want to test message-match against different ad cards:*
+- What does the manual half of your close cost you?
+- Put a number on your month end.
+
+---
+
+## Step 1 — Your numbers
+
+**Section heading:** Your numbers
+**Part label:** Part 1
+
+**Section intro:** Four inputs about the cost of your close. Your full result appears after the maturity questions in Part 2.
+
+### Input 1
+**Label:** Which best describes you?
+**Options:** A single business · A group of entities · A practice or fractional CFO
+
+### Input 2
+**Label (group):** How many entities are in your group?
+**Label (practice):** How many client groups do you run month end for?
+**Helper:** Count every entity that needs its own close, including dormant ones if your team still reconciles them.
+
+### Input 3
+**Label:** Hours spent per entity, per month, on the manual operations layer
+**Helper:** The work between "the data is in Xero" and "the reports are out": intercompany reconciliations and recharges, cross-entity bank reconciliation, deferred revenue and prepayment schedules, chart-of-accounts alignment, and variance analysis. Not bookkeeping, not reporting — the bit in between.
+**Slider anchor labels:** 30 mins → 15 hours
+
+### Input 4
+**Label:** Blended hourly cost of the people doing this work
+**Helper:** Salary plus employer costs, divided across the mix of junior and senior time. We've pre-filled a typical figure — adjust it if you know yours.
+**Prefix:** £
+
+---
+
+## Result panel
+
+**Eyebrow:** Your full result
+
+**Headline:** Your month end costs around **£21,600 a year.**
+
+**Maturity weave:** And your process sits in **The manual majority (3/10)** — 0–3 on the maturity scale.
+
+**Breakdown label:** How the cost is made up
+**Breakdown line:** 8 entities × 5 hours × 12 months × £45 an hour
+**Secondary stats:** 40 hours a month · 480 hours a year
+
+**Recoverable block heading:** What's recoverable
+**Recoverable copy:** Teams that automate this layer typically recover 60–80% of those hours — roughly **£13,000–£17,300 a year**, or 288 to 384 hours handed back to your team. An illustration based on customer outcomes, not a guarantee.
+
+### Methodology accordion
+
+**Trigger:** How we calculated this
+
+**Body:**
+> Everything here comes from the numbers and answers you entered. Nothing is inferred about your business.
+>
+> **Annual cost** = entities × hours per entity × 12 months × blended hourly rate.
+>
+> We deliberately count only the manual operations layer — the intercompany, recharge, schedule and reconciliation work described above. We don't add anything for review time, coordination or days-to-close, because those hours are already inside the figure you gave us and counting them twice would inflate the result.
+>
+> Maturity is scored from four process questions (0–2 each), then rescaled to /10 so the bands stay consistent with the Mending Month End Toolkit.
+>
+> The recoverable range reflects what customers report after automating this layer. Your own figure depends on how much of your close is genuinely repeatable, so treat the range as a starting point for a conversation rather than a forecast.
+
+---
+
+## Step 2 — Maturity audit
+
+**Part label:** Part 2 · X/4 answered
+
+**Section heading:** How mature is your close?
+
+**Section intro:** Cost is one half of the picture. These four questions place your process against the range we see across finance teams and practices. Answer as honestly as you'd answer a colleague, not an auditor.
+
+**Progress prompt (pre-reveal):** Answer the four maturity questions to see your full result / Answer N more questions to see your full result
+
+**Gate:** Combined cost + maturity result is hidden until all four maturity questions are answered. Shared links with complete answers open on the revealed result.
+
+### Question 1
+**How does your team reconcile intercompany balances across group entities?**
+- One person maintains a master spreadsheet fed by manual pulls from each entity
+- Each entity manager owns their piece, and we consolidate at review
+- A dedicated tool reconciles across entities and flags out-of-balance accounts automatically
+
+### Question 2
+**How consistent is your month-end process across the team?**
+- Every manager runs it their own way, with their own tools and shortcuts
+- We have shared templates, but managers adapt them to how they like to work
+- One standardised process, identical whoever runs it
+
+### Question 3
+**What happens when a spreadsheet or workaround breaks mid-close?**
+- We rebuild it — half a day gone, at minimum
+- There's a fallback, but usually the original owner has to fix it
+- Nothing critical to month end runs on spreadsheets, so this doesn't come up
+
+### Question 4
+**How is your senior team's month-end time actually being spent?**
+- Mostly checking, re-verifying and re-doing the numbers junior staff produced
+- Checking reliability, half real analysis and client-facing work
+- Mostly judgement, analysis and client work. Checking is minimal
+
+*(Score 0 / 1 / 2 top to bottom. Total out of 8, rescaled to /10 for the bands below.)*
+
+---
+
+## Maturity bands
+
+**Band 0–3 — The manual majority**
+This is where most organisations sit, which is worth saying plainly: it isn't a failure, it's the default state. It does mean automation has the biggest possible upside for you. Start with the highest-time, highest-risk part of your close — for most teams that's intercompany reconciliation. Automate that one workflow properly and the rest of the close starts to feel possible.
+
+**Band 4–6 — Partway there**
+The basics are working: shared templates, probably a workflow or two already automated. The gap between here and a fully mended close is usually consistency rather than effort — narrowing the distance between how your best manager runs month end and how your average one does. Standardise the operations layer and the team scales without adding people.
+
+**Band 7–10 — In control**
+You're ahead of the curve; most of the industry hasn't got here. The question now is strategic rather than operational: what could your team do if the last twenty percent of manual work went away? That last stretch is usually variance commentary, edge cases in recharges, or the one legacy entity nobody wants to touch. Fewer hours — but they tend to be the hours your senior people are actually stuck on.
+
+---
+
+## Email capture
+
+**Heading:** Get the full report
+
+**Body:** We'll email you a breakdown of your result, plus The Mending Month End Toolkit: the full five-question audit, three finance teams on how they mended their close, and a vendor-agnostic checklist of what to ask any automation vendor — including us.
+
+**Field label:** Work email
+**Placeholder:** you@company.com
+**Optional field:** Company name
+
+**Consent checkbox:** Email me occasional practical content about month end. Unsubscribe any time.
+
+**Button:** Send me the report
+
+**Privacy line:** We'll only use your email for what you've asked for. See our privacy policy.
+
+**Success state:** On its way. Check your inbox in the next minute or two — and if it hasn't arrived, look in spam or promotions.
+
+**Share prompt** (shown alongside success): Want to show someone this number? Copy a link to your result →
+**Share confirmation:** Link copied.
+
+---
+
+## Secondary CTAs
+
+**Heading:** Seeing where the time goes is the easy part
+
+**Copy:** Mayday coordinates and automates the operations layer of month end for finance teams on Xero, QuickBooks Online and Intuit Enterprise Suite. Have a look at how it works, or try it on your own files.
+
+**Primary button:** Book a live demo
+**Secondary link:** Start a 30-day free trial — no credit card required
+
+---
+
+## Static SEO prose block
+
+**H2:** Why the middle of month end is the expensive part
+
+Bank feeds handle incoming transactions. OCR reads the bills. Rules classify the coding. Dashboards produce the reports. All of that is now table stakes for a finance team on a modern ledger.
+
+But between "the data is in Xero" and "the reports are out" sits an operations layer that almost every team still does by hand: intercompany reconciliations and recharges, cross-entity bank reconciliation, deferred revenue and prepayment schedules, chart-of-accounts alignment across group entities, and variance analysis. It's repetitive, it's high-risk, and because it's spread across spreadsheets and inboxes it rarely appears as a line item anywhere.
+
+That's what this calculator is for: putting a single number on work that's usually invisible. It costs nothing to run, doesn't require a signup, and the arithmetic is shown in full so you can check it or take it to your finance director.
+
+**H3:** What counts as the operations layer?
+Anything between bookkeeping and reporting that your team does manually every month, repeatedly, in broadly the same way. If a competent new starter could be handed a documented process and produce the same output, it's operations layer work — and it's the work most likely to be automatable.
+
+**H3:** How accurate is the estimate?
+As accurate as the four numbers you enter. It's a scale estimate rather than a precise costing, and it's most useful as a way to see the order of magnitude — most teams are surprised by the annual figure rather than the monthly one.
+
+---
+
+## Microcopy
+
+- **Entities set to 0:** Enter at least one entity to see your result.
+- **Hours at minimum:** If your close genuinely takes under 30 minutes an entity, you're already in rare company.
+- **Slider hint (first visit, mobile):** Drag to adjust.
+- **Loading state:** Not needed — the calculation is instant. Don't add a spinner.
