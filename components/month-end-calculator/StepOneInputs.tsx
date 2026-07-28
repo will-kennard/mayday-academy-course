@@ -68,12 +68,12 @@ export default function StepOneInputs({
         the maturity questions in Part 2.
       </p>
 
-      <div className="mt-6 space-y-7">
-        <fieldset>
-          <legend className="text-sm font-semibold text-heading">
+      <div className="mt-8 space-y-10">
+        <fieldset className="rounded-xl border border-border bg-white p-5 sm:p-6">
+          <legend className="font-poppins max-w-full px-1 text-lg font-semibold leading-snug tracking-tight text-heading sm:text-xl">
             Which best describes you?
           </legend>
-          <div className="mt-3 grid gap-2">
+          <div className="mt-5 grid gap-3">
             {PROFILE_OPTIONS.map((option) => {
               const selected = inputs.profile === option.id;
               return (
@@ -82,7 +82,7 @@ export default function StepOneInputs({
                   type="button"
                   aria-pressed={selected}
                   onClick={() => setProfile(option.id)}
-                  className={`rounded-lg border p-4 text-left text-sm font-medium transition-colors ${
+                  className={`rounded-lg border p-4 text-left text-sm font-medium transition-colors sm:text-base ${
                     selected
                       ? "border-brand bg-brand-soft text-heading"
                       : "border-border bg-surface text-heading hover:bg-surface-muted"
@@ -96,18 +96,18 @@ export default function StepOneInputs({
         </fieldset>
 
         {showEntities ? (
-          <div>
+          <div className="rounded-xl border border-border bg-white p-5 sm:p-6">
             <label
               htmlFor="mec-entities"
-              className="text-sm font-semibold text-heading"
+              className="font-poppins text-lg font-semibold leading-snug tracking-tight text-heading sm:text-xl"
             >
               {entityLabel}
             </label>
-            <p className="mt-1 text-sm leading-relaxed text-muted">
+            <p className="mt-2 text-sm leading-relaxed text-muted">
               Count every {profile.noun} that needs its own close, including
               dormant ones if your team still reconciles them.
             </p>
-            <div className="mt-3 flex items-center gap-2">
+            <div className="mt-5 flex items-center gap-2">
               <StepperButton
                 label="Decrease"
                 disabled={inputs.entities <= CALCULATOR_CONSTANTS.minEntities}
@@ -156,11 +156,11 @@ export default function StepOneInputs({
           </div>
         ) : null}
 
-        <div>
+        <div className="rounded-xl border border-border bg-white p-5 sm:p-6">
           <div className="flex items-start justify-between gap-3">
             <label
               htmlFor="mec-hours"
-              className="text-sm font-semibold text-heading"
+              className="font-poppins text-lg font-semibold leading-snug tracking-tight text-heading sm:text-xl"
             >
               Hours spent per {profile.noun}, per month, on the manual operations
               layer
@@ -169,12 +169,12 @@ export default function StepOneInputs({
               {formatHours(inputs.hoursPerEntity)} hrs
             </span>
           </div>
-          <p className="mt-1 text-sm leading-relaxed text-muted">
+          <p className="mt-2 text-sm leading-relaxed text-muted">
             {OPERATIONS_LAYER_HELPER}
           </p>
           <input
             id="mec-hours"
-            className="mec-slider mt-3"
+            className="mec-slider mt-5"
             type="range"
             min={CALCULATOR_CONSTANTS.minHours}
             max={CALCULATOR_CONSTANTS.maxHours}
@@ -209,7 +209,7 @@ export default function StepOneInputs({
                 hoursPerEntity: Number(event.target.value),
               })
             }
-            className="mt-3 h-11 w-full rounded-lg border border-border bg-white px-3 text-sm text-heading outline-none focus-visible:ring-2 focus-visible:ring-mayday-red sm:max-w-[10rem]"
+            className="mt-4 h-11 w-full rounded-lg border border-border bg-white px-3 text-sm text-heading outline-none focus-visible:ring-2 focus-visible:ring-mayday-red sm:max-w-[10rem]"
           />
           {inputs.hoursPerEntity <= CALCULATOR_CONSTANTS.minHours ? (
             <p className="mt-2 text-sm text-muted">
@@ -219,11 +219,11 @@ export default function StepOneInputs({
           ) : null}
         </div>
 
-        <div>
+        <div className="rounded-xl border border-border bg-white p-5 sm:p-6">
           <div className="flex items-start justify-between gap-3">
             <label
               htmlFor="mec-rate"
-              className="text-sm font-semibold text-heading"
+              className="font-poppins text-lg font-semibold leading-snug tracking-tight text-heading sm:text-xl"
             >
               Blended hourly cost of the people doing this work
             </label>
@@ -231,14 +231,14 @@ export default function StepOneInputs({
               {formatCurrency(inputs.blendedRate)}
             </span>
           </div>
-          <p className="mt-1 text-sm leading-relaxed text-muted">
+          <p className="mt-2 text-sm leading-relaxed text-muted">
             Salary plus employer costs, divided across the mix of junior and
             senior time. We&apos;ve pre-filled a typical figure — adjust it if
             you know yours.
           </p>
           <input
             id="mec-rate"
-            className="mec-slider mt-3"
+            className="mec-slider mt-5"
             type="range"
             min={CALCULATOR_CONSTANTS.minRate}
             max={CALCULATOR_CONSTANTS.maxRate}
@@ -259,7 +259,7 @@ export default function StepOneInputs({
           <label className="sr-only" htmlFor="mec-rate-number">
             Blended hourly cost as a number
           </label>
-          <div className="relative mt-3 sm:max-w-[10rem]">
+          <div className="relative mt-4 sm:max-w-[10rem]">
             <span className="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 text-sm text-muted">
               £
             </span>

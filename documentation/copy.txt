@@ -13,9 +13,11 @@
 
 ## Hero
 
+**Visual:** Full-bleed mayday-red band with `month_end_again.png` (ad creative). Do not re-typeset “Month end. Again?” in HTML — the image carries that message match.
+
 **H1:** How much does your month end actually cost?
 
-**Sub:** Bookkeeping is automated. Reporting is automated. The bit in between still isn't — and it quietly eats a week of every month. Answer a short quiz for an estimate of what that costs you a year, and how mature your process is.
+**Sub:** The manual half of close quietly eats a week every month. A short quiz puts a number on it — and shows how mature your process is.
 
 **Reassurance line** (small, directly beneath): No signup. Your full result appears when you finish both parts.
 

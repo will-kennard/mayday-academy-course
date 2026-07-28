@@ -15,7 +15,7 @@ export default function MaturityAudit({
   answeredCount: number;
 }) {
   return (
-    <div className="border-t border-border pt-8">
+    <div className="border-t border-border pt-10">
       <p className="text-xs font-semibold uppercase tracking-wide text-brand">
         Part 2 · {answeredCount}/4 answered
       </p>
@@ -28,16 +28,19 @@ export default function MaturityAudit({
         honestly as you&apos;d answer a colleague, not an auditor.
       </p>
 
-      <div className="mt-6 space-y-6">
+      <div className="mt-8 space-y-10">
         {MATURITY_QUESTIONS.map((question, questionIndex) => (
-          <fieldset key={question.id}>
-            <legend className="text-sm font-semibold text-heading">
-              <span className="mr-2 text-xs font-semibold uppercase tracking-wide text-brand">
-                Q{questionIndex + 1}
+          <fieldset
+            key={question.id}
+            className="rounded-xl border border-border bg-white p-5 sm:p-6"
+          >
+            <legend className="font-poppins max-w-full px-1 text-lg font-semibold leading-snug tracking-tight text-heading sm:text-xl">
+              <span className="mb-2 block text-xs font-semibold uppercase tracking-wide text-brand">
+                Question {questionIndex + 1}
               </span>
               {question.prompt}
             </legend>
-            <div className="mt-3 space-y-2">
+            <div className="mt-5 space-y-3">
               {question.options.map((option, optionIndex) => {
                 const selected = answers[questionIndex] === optionIndex;
                 return (
@@ -50,7 +53,7 @@ export default function MaturityAudit({
                       next[questionIndex] = optionIndex;
                       onChange(next);
                     }}
-                    className={`flex w-full items-start gap-3 rounded-lg border p-4 text-left text-sm transition-colors ${
+                    className={`flex w-full items-start gap-3 rounded-lg border p-4 text-left text-sm transition-colors sm:text-base ${
                       selected
                         ? "border-brand bg-brand-soft"
                         : "border-border bg-surface hover:bg-surface-muted"

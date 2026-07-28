@@ -135,9 +135,9 @@ export default function MonthEndCalculator() {
 
   return (
     <div className="space-y-6">
-      <section className="rounded-xl border border-border bg-surface p-5 sm:p-6">
+      <section>
         <StepOneInputs inputs={normalized} onChange={handleInputsChange} />
-        <div className="mt-8">
+        <div className="mt-12">
           <MaturityAudit
             answers={answers}
             onChange={handleAnswersChange}
@@ -189,9 +189,9 @@ export function MonthEndCalculatorFallback() {
 
   return (
     <div className="space-y-6">
-      <section className="rounded-xl border border-border bg-surface p-5 sm:p-6">
+      <section>
         <StepOneInputs inputs={defaults} onChange={() => {}} />
-        <div className="mt-8">
+        <div className="mt-12">
           <MaturityAudit
             answers={getDefaultMaturityAnswers()}
             onChange={() => {}}

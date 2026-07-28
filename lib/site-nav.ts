@@ -113,6 +113,10 @@ export const resourceGroups: NavLinkGroup[] = [
       { label: "CFO Techstack", href: marketingUrl("/cfotechstack") },
       { label: "Blog", href: marketingUrl("/resources/blog") },
       { label: "Webinars", href: marketingUrl("/resources/webinars") },
+      {
+        label: "Month-end cost calculator",
+        href: "/resources/month-end-cost-calculator",
+      },
     ],
   },
   {
