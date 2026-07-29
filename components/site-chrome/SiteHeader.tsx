@@ -150,29 +150,27 @@ function MobileAccordion({
         {title}
         <Chevron open={open} />
       </button>
-      {open ? (
-        <div id={panelId} className="pb-3">
-          {groups.map((group) => (
-            <div key={group.heading} className="mb-3">
-              <p className="mb-1 px-1 text-xs font-semibold uppercase tracking-wide text-mayday-dark/45">
-                {group.heading}
-              </p>
-              <div className="flex flex-col">
-                {group.links.map((link) => (
-                  <SiteLink
-                    key={link.label}
-                    link={link}
-                    className="flex items-center rounded-md px-2 py-2 text-sm text-mayday-dark/80 hover:bg-surface-muted hover:text-mayday-red"
-                  >
-                    {link.label}
-                    {link.badge ? <BadgePill badge={link.badge} /> : null}
-                  </SiteLink>
-                ))}
-              </div>
+      <div id={panelId} className={open ? "pb-3" : "hidden"} hidden={!open}>
+        {groups.map((group) => (
+          <div key={group.heading} className="mb-3">
+            <p className="mb-1 px-1 text-xs font-semibold uppercase tracking-wide text-mayday-dark/45">
+              {group.heading}
+            </p>
+            <div className="flex flex-col">
+              {group.links.map((link) => (
+                <SiteLink
+                  key={link.label}
+                  link={link}
+                  className="flex items-center rounded-md px-2 py-2 text-sm text-mayday-dark/80 hover:bg-surface-muted hover:text-mayday-red"
+                >
+                  {link.label}
+                  {link.badge ? <BadgePill badge={link.badge} /> : null}
+                </SiteLink>
+              ))}
             </div>
-          ))}
-        </div>
-      ) : null}
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
@@ -294,25 +292,27 @@ export default function SiteHeader() {
           ) : null}
         </div>
 
-        {openMenu === "product" ? (
-          <div
-            className="hidden lg:block"
-            onMouseEnter={() => setOpenMenu("product")}
-            onMouseLeave={() => setOpenMenu(null)}
-          >
-            <ProductMegaMenu groups={productGroups} />
-          </div>
-        ) : null}
+        <div
+          className={
+            openMenu === "product" ? "hidden lg:block" : "hidden"
+          }
+          aria-hidden={openMenu !== "product"}
+          onMouseEnter={() => setOpenMenu("product")}
+          onMouseLeave={() => setOpenMenu(null)}
+        >
+          <ProductMegaMenu groups={productGroups} />
+        </div>
 
-        {openMenu === "resources" ? (
-          <div
-            className="hidden lg:block"
-            onMouseEnter={() => setOpenMenu("resources")}
-            onMouseLeave={() => setOpenMenu(null)}
-          >
-            <ResourcesMegaMenu groups={resourceGroups} />
-          </div>
-        ) : null}
+        <div
+          className={
+            openMenu === "resources" ? "hidden lg:block" : "hidden"
+          }
+          aria-hidden={openMenu !== "resources"}
+          onMouseEnter={() => setOpenMenu("resources")}
+          onMouseLeave={() => setOpenMenu(null)}
+        >
+          <ResourcesMegaMenu groups={resourceGroups} />
+        </div>
 
         <div className="relative z-10 flex items-center gap-2 sm:gap-3">
           <a
@@ -373,8 +373,14 @@ export default function SiteHeader() {
         </div>
       </nav>
 
-      {mobileOpen ? (
-        <div className="max-h-[calc(100dvh-72px)] overflow-y-auto border-t border-border bg-white lg:hidden">
+      <div
+        className={
+          mobileOpen
+            ? "max-h-[calc(100dvh-72px)] overflow-y-auto border-t border-border bg-white lg:hidden"
+            : "hidden"
+        }
+        aria-hidden={!mobileOpen}
+      >
           <div className="mx-auto max-w-6xl px-4 py-2 sm:px-6">
             <MobileAccordion
               title="Product"
@@ -428,8 +434,7 @@ export default function SiteHeader() {
               </a>
             </div>
           </div>
-        </div>
-      ) : null}
+      </div>
     </header>
   );
 }
