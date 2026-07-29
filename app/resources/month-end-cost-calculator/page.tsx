@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "How much does your month end actually cost?",
     description:
-      "Answer a short quiz for an estimate of what your close costs every year — and how mature your process is.",
+      "Answer a short quiz for an estimate of what your close costs every year - and how mature your process is.",
     url: absoluteUrl(path),
     type: "website",
   },

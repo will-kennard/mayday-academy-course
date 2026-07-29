@@ -10,10 +10,10 @@ export default function CalculatorHero() {
           </h1>
           <p className="mt-4 max-w-xl text-base leading-relaxed text-white/90 sm:text-lg">
             The manual half of close quietly eats a week every month. A short
-            quiz puts a number on it — and shows how mature your process is.
+            quiz puts a number on it - and shows how mature your process is.
           </p>
           <p className="mt-3 text-sm text-white/75">
-            No signup. Your full result appears when you finish both parts.
+            No signup necessary.
           </p>
         </div>
 

@@ -5,9 +5,9 @@ import { usePathname } from "next/navigation";
 import { routes } from "@/lib/routes";
 
 const links = [
-  { href: routes.home(), label: "Home" },
-  { href: routes.course(), label: "Course" },
-  { href: routes.quiz(), label: "Quiz" },
+  { href: routes.home(), label: "Course home" },
+  { href: routes.course(), label: "Course content" },
+  { href: routes.quiz(), label: "Course quiz" },
 ];
 
 function isActive(pathname: string, href: string) {
@@ -34,7 +34,7 @@ export default function AcademySubnav() {
   return (
     <div className="border-b border-border bg-surface-muted">
       <nav
-        className="mx-auto flex max-w-6xl items-center gap-1 overflow-x-auto px-4 py-2 sm:px-6 lg:px-8"
+        className="mx-auto flex max-w-5xl items-center gap-1 overflow-x-auto px-4 py-2 sm:px-6"
         aria-label="Academy"
       >
         {links.map((link) => {
