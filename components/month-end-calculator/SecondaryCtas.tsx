@@ -26,7 +26,7 @@ export default function SecondaryCtas() {
           rel="noopener noreferrer"
           className="inline-flex h-12 w-full items-center justify-center rounded-lg border border-border bg-surface px-6 text-sm font-semibold text-heading transition-colors hover:bg-white sm:w-auto"
         >
-          Start a 30-day free trial — no credit card required
+          Start a 30-day free trial - no credit card required
         </a>
       </div>
     </section>
