@@ -1,3 +1,8 @@
+---
+name: mayday-target-keywords
+description: Provides Mayday product-led and subject-led target keywords for SEO. Use when choosing titles, headings, internal links, or keywords for pages, blog posts, and paid search.
+---
+
 This document describes our current target keywords for the purposes of SEO.
 
 ## Product-led keywords

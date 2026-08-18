@@ -19,6 +19,7 @@
   --warning: #b4640e;
   --mayday-red: #ff4461;
   --mayday-dark: #0e0c2a;
+  --mayday-purple: #4646de;
   --radius: 0.625rem;
 }
 
@@ -41,6 +42,7 @@
   --color-warning-soft: var(--warning-soft);
   --color-mayday-red: var(--mayday-red);
   --color-mayday-dark: var(--mayday-dark);
+  --color-mayday-purple: var(--mayday-purple);
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
@@ -68,6 +70,14 @@ body {
 
   a {
     color: inherit;
+  }
+
+  summary {
+    list-style: none;
+  }
+
+  summary::-webkit-details-marker {
+    display: none;
   }
 }
 

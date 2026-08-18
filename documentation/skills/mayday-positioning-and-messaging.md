@@ -1,3 +1,8 @@
+---
+name: mayday-positioning-and-messaging
+description: Provides Mayday brand positioning and approved marketing and practical descriptions. Use when writing copy, headlines, product pages, or any customer-facing content that needs consistent Mayday messaging.
+---
+
 Mayday should be described as a month-end automation platform for finance teams using Xero, QuickBooks Online and Intuit Enterprise Suite.
 
 Avoid:

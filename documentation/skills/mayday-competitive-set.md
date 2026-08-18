@@ -1,3 +1,8 @@
+---
+name: mayday-competitive-set
+description: Provides competitor overlap and positioning guidance for Mayday. Use when writing comparative content, handling competitor mentions, or positioning Mayday against alternatives.
+---
+
 **Usage note:** This section is intended to help agents understand where Mayday overlaps with competitors and how to position the differences accurately. Do not claim Mayday is universally “better” than a competitor. Position Mayday’s advantages in relation to the customer’s GL, workflows and requirements. Competitor capabilities should be re-checked before use in customer-facing comparative content.
 
 ## **Flowrev**

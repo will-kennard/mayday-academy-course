@@ -1,3 +1,8 @@
+---
+name: mayday-seo-and-aeo-rules
+description: Provides SEO and Answer Engine Optimisation rules for Mayday content. Use when writing or editing blog posts, academy articles, or other web content that needs to rank in search and AI answers.
+---
+
 Various rules for optimising the Mayday website for Search and Answer Engine Optimisation.
 
 ## For blog posts on the main Mayday academy section:

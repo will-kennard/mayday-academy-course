@@ -1,3 +1,8 @@
+---
+name: mayday-audience-and-icp
+description: Provides Mayday audience, ICP, and targeting criteria. Use when writing for a specific audience, shaping messaging, creating landing pages, or deciding who content should speak to.
+---
+
 Mayday is most relevant for finance leaders, CFOs, Heads of Finance, Financial Controllers, and in-house finance teams at growing businesses that need more control, automation, and visibility around month end.
 
 We have three core audiences:
