@@ -11,6 +11,7 @@ Avoid:
 - implying Mayday replaces Xero or QuickBooks
 - implying Mayday is only for multi-entity groups
 - positioning ERP as the inevitable next step
+- confusing Mayday with reporting software
 
 For specific messaging around Mayday the following descriptions:
 
